@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+    content="SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting">
+  <meta name="keywords" content="3D Gaussian Splatting, Compression, Dynamic Scene Reconstruction, Parameter Compression, Restructuring Compression, Novel View Synthesis, Real-time Rendering, Efficient 3DGS, 4D Gaussian Splatting, Pruning, Quantization, Entropy Coding, Anchor-based Representation, Neural Radiance Fields, Scene Representation">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting
+  </title>
+  
+  <!-- <link rel="icon" href="./insta_logo.png" type="image/png">
+  <link rel="shortcut icon" href="./insta_logo.png" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-48.png" sizes="48x48" type="image/png">
+  <link rel="icon" href="./static/images/insta_logo_1-64.png" sizes="64x64" type="image/png"> -->
+
+
+    <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZ38WT2YPD"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QZ38WT2YPD');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://kit.fontawesome.com/19914a84eb.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<section class="hero is-link is-fullheight video" style="overflow: hidden; position:relative;">
+  <div class="hero-video" style="height: 100%; width: 177.77777778vh; min-width: 100%; min-height: 56.25vw;">
+    <video playsinline autoplay muted loop>
+      <source src="./static/videos/3DGS_DEMO.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="hero-video is-hidden-tablet is-inline-block-mobile"
+       style="height: 154.28571428vw; width: 100%; min-width:64.81481481vh; min-height:100%;">
+    <video playsinline autoplay muted loop>
+      <source src="./static/videos/3DGS_DEMO.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="overlay"></div>
+  <!-- Video Credit -->
+  <div style="position: absolute; bottom: 10px; right: 10px; background-color: rgba(0,0,0,0.6); padding: 8px 12px; border-radius: 4px; z-index: 10;">
+    <p style="margin: 0; font-size: 0.75rem; color: white; line-height: 1.3;">
+      Video: Schindelar, Christoph. "3D Gaussian Splatting - DEMO." <br>
+      <a href="https://www.youtube.com/watch?v=nXG1oeQ7HBs" target="_blank" style="color: #87CEEB; text-decoration: none;">YouTube, 2 Oct. 2024</a>
+    </p>
+  </div>
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head is-hidden-mobile">
+    <header class="navbar">
+      <div class="container is-size-5">
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item pl-4 pr-4" href="">
+              <span class="icon" style="margin-right:5px;">
+                <img src="./static/images/pdf.svg" alt="PDF" />
+              </span>
+              <span>Paper</span>
+            </a>
+            <a class="navbar-item  pl-4 pr-4" href="">
+              <span class="icon" style="margin-right:5px;">
+              <img src="./static/images/arxiv.svg" alt="ArXiv" />
+              </span>
+              <span>arXiv</span>
+            </a>
+            <!-- <a href="https://www.youtube.com/embed/8nc4Qod6iZw" class="navbar-item  pl-4 pr-4">
+              <span class="icon" style="margin-right:5px;">
+                <img src="./static/images/youtube.svg" alt="Youtube" />
+              </span>
+              <span>Video</span> </a> -->
+            <a href="https://github.com/CMLab-Korea/SUCCESS-GS" class="navbar-item pl-4 pr-4">
+              <span class="icon" style="margin-right:5px;">
+              <i class="fab fa-github"></i>
+              </span>
+              <span>Github</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+  <!-- Hero content: will be in the middle -->
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <div style="display: inline-flex; align-items: center; justify-content: center;">
+    <!-- <img src="plane.png" alt="Plane" style="margin-top: 10px; width: 180px; height: auto;"> -->
+    <h1 class="title is-1 publication-title is-size-1-mobile" style="font-size: 6rem; margin: 0;">
+      🏆SUCCESS-GS
+    </h1>
+  </div>
+      <h1 class="subtitle is-1 publication-title is-size-4-mobile" style="font-size: 4rem;">
+        Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting
+      </h1>
+      <p>
+        <br>
+        <br>
+        <br>
+      <p style="font-size:1.25em; margin-top:0.8em; display:flex; justify-content:center; flex-wrap:wrap; gap:0.9em;">
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Seokhyun Youn</strong><sup>*</sup>
+        <img src="cau_logo.png" alt="Chung-Ang University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Soohyun Lee</strong><sup>*</sup>
+        <img src="cau_logo.png" alt="Chung-Ang University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Geonho Kim</strong><sup>*</sup>
+        <img src="cau_logo.png" alt="Chung-Ang University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Weeyoung Kwon</strong>
+        <img src="khu_logo.png" alt="Kyung Hee University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Sung-Ho Bae</strong><sup>†</sup>
+        <img src="khu_logo.png" alt="Kyung Hee University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+
+      <a href="" style="display:inline-flex; align-items:flex-start; gap:0.25em;">
+        <strong>Jihyong Oh</strong><sup>†</sup>
+        <img src="cau_logo.png" alt="Chung-Ang University"
+             style="height:1.4em; transform:translateY(-0.25em);">
+      </a>
+      </p>
+      <p style="text-align:center; margin-top:0.5em;">
+        <sup>*</sup> Equal Contribution. <sup>†</sup> Co-Corresponding Authors.
+      </p>
+      <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+  <div class="institution-logos" style="display: flex; align-items: center; gap: 30px;">
+    <span class="institution" style="display: inline-flex; align-items: center; gap: 8px;">
+      <img src="cau_logo.png" alt="Chung-Ang University Logo" style="height: 40px;">
+      <img src="cmlab_logo.png" alt="Creative Vision and Multimedia Lab Logo" style="height: 40px;">
+      <span style="font-size: 1.1em;">Creative Vision and Multimedia Lab</span>
+    </span>
+    <span class="institution" style="display: inline-flex; align-items: center; gap: 8px;">
+      <img src="khu_logo.png" alt="Kyung Hee University Logo" style="height: 40px;">
+      <img src="enc_logo.png" alt="Efficient Neural Computing Lab Logo" style="height: 40px; background-color: white; padding: 4px;">
+      <span style="font-size: 1.1em;">Efficient Neural Computing Lab</span>
+    </span>
+  </div>
+      </p>
+      <div class="column has-text-centered is-hidden-tablet">
+        <div class="publication-links">
+          <!-- PDF Link. -->
+          <span class="link-block">
+            <a href="" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <img src="./static/images/pdf.svg" alt="PDF" />
+              </span>
+              <span>Paper</span>
+            </a>
+          </span>
+          <span class="link-block">
+            <a href="" class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <img src="./static/images/arxiv.svg" alt="ArXiv" />
+              </span>
+              <span>arXiv</span>
+            </a>
+          </span>
+          <!-- Code Link. -->
+          <span class="link-block">
+            <a href="https://github.com/CMLab-Korea/SUCCESS-GS"
+              class="external-link button is-normal is-rounded is-dark">
+              <span class="icon">
+                <i class="fab fa-github"></i>
+              </span>
+              <span>Code</span>
+            </a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <p style="color:#0D207F; font-weight:600; font-size:1.05rem; margin-bottom:1rem;">
+          TL;DR: SUCCESS-GS is a comprehensive survey that systematically categorizes efficient 3D and 4D Gaussian Splatting methods into Parameter Compression and Restructuring Compression strategies, providing unified taxonomy, benchmark comparisons, and future directions toward scalable real-time scene representation for both static and dynamic scenarios.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="abstract">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Abstract</h2>
+        <div class="content">
+          <img src="Figure1_v2-1.png" alt="Figure 1" style="width:100%; border-radius:8px; margin-bottom:1rem;">
+          <p style="text-align:justify;">
+            <span style="color:#0D207F; font-weight:600;">3D Gaussian Splatting (3DGS)</span> has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands required to store and render millions of Gaussians. These challenges become even more severe in 4D dynamic scenes.
+          </p>
+          <p style="text-align:justify;">
+            To address these issues, the field of <span style="color:#0D207F; font-weight:600;">Efficient Gaussian Splatting</span> has rapidly evolved, proposing methods that reduce redundancy while preserving reconstruction quality. This survey provides the first unified overview of efficient <span style="color:#0D207F; font-weight:600;">3D and 4D Gaussian Splatting</span> techniques.
+          </p>
+          <p style="text-align:justify;">
+            For both 3D and 4D settings, we systematically categorize existing methods into two major directions, <span style="color:#0D207F; font-weight:600;">Parameter Compression</span> and <span style="color:#0D207F; font-weight:600;">Restructuring Compression</span>, and comprehensively summarize the core ideas and methodological trends within each category. We further cover widely used datasets, evaluation metrics, and representative benchmark comparisons. Finally, we discuss current limitations and outline promising research directions toward scalable, compact, and real-time <span style="color:#0D207F; font-weight:600;">Gaussian Splatting</span> for both static and dynamic 3D scene representation.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="parameter-compression">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Parameter Compression Strategies for Static 3DGS</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            Directly compresses Gaussian attributes without modifying the original <span style="color:#0D207F; font-weight:600;">3DGS</span> architecture, eliminating redundancy while preserving rendering quality through five methods: <span style="color:#0D207F; font-weight:600;">Pruning</span>, <span style="color:#0D207F; font-weight:600;">Attribute Pruning</span>, <span style="color:#0D207F; font-weight:600;">Quantization</span>, <span style="color:#0D207F; font-weight:600;">Entropy Coding</span>, and <span style="color:#0D207F; font-weight:600;">Structured Compression</span>.
+          </p>
+          <img src="Figure3_v5-1.png" alt="Parameter Compression Strategies" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="restructuring-compression">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Restructuring Compression Strategies for Static 3DGS</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            Fundamentally modifies the original <span style="color:#0D207F; font-weight:600;">3DGS</span> architecture to achieve efficient scene representation through three strategies: <span style="color:#0D207F; font-weight:600;">Anchor-based Hierarchical Structure</span> methods using sparse anchors, <span style="color:#0D207F; font-weight:600;">Neural Network Integration</span> methods replacing representations with neural networks, and <span style="color:#0D207F; font-weight:600;">Geometric Structure-aware</span> methods exploiting scene geometric properties.
+          </p>
+          <img src="Figure4_v3-1.png" alt="Restructuring Compression Strategies" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="parameter-compression-dynamic">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Parameter Compression Strategies for Dynamic 3DGS</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            Reduces redundancy in spatio-temporal representations without modifying the rendering architecture through four methods: <span style="color:#0D207F; font-weight:600;">Gaussian Pruning</span> based on temporal activity, <span style="color:#0D207F; font-weight:600;">Attribute Pruning</span> removing temporal parameters, <span style="color:#0D207F; font-weight:600;">Quantization</span> discretizing Gaussian parameters, and <span style="color:#0D207F; font-weight:600;">Entropy-based Compression</span> exploiting statistical redundancy.
+          </p>
+          <img src="Figure5_v2-1.png" alt="Parameter Compression Strategies for Dynamic 3DGS" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="restructuring-compression-dynamic">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Restructuring Compression Strategies for Dynamic 3DGS</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            Achieves compact representations by restructuring the underlying architecture through three approaches: <span style="color:#0D207F; font-weight:600;">Anchor-based Representation</span> modeling deformations via sparse anchors, <span style="color:#0D207F; font-weight:600;">Canonical Deformable Representation</span> mapping canonical space to time-varying space using deformation fields, and <span style="color:#0D207F; font-weight:600;">LoD Representation</span> organizing Gaussians into multi-resolution hierarchies.
+          </p>
+          <img src="Figure6_v3-1.png" alt="Restructuring Compression Strategies for Dynamic 3DGS" style="width:100%; border-radius:8px; margin-top:1rem;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Performance Comparison</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            The left figure presents a bubble chart comparing static <span style="color:#0D207F; font-weight:600;">3DGS</span> methods on <span style="color:#0D207F; font-weight:600;">Mip-NeRF 360</span>, where the x-axis shows perceptual quality (<span style="color:#0D207F; font-weight:600;">LPIPS</span> ↓), the y-axis shows reconstruction quality (<span style="color:#0D207F; font-weight:600;">PSNR</span> ↑), and bubble size represents model storage size (MB ↓), demonstrating that various compact designs achieve improved quality with reasonable storage.
+          </p>
+          <p style="text-align:justify;">
+            The right figure presents a bubble chart comparing dynamic <span style="color:#0D207F; font-weight:600;">3DGS</span> methods on <span style="color:#0D207F; font-weight:600;">N3DV</span>, where the x-axis shows rendering speed (<span style="color:#0D207F; font-weight:600;">FPS</span> ↑), the y-axis shows reconstruction quality (<span style="color:#0D207F; font-weight:600;">PSNR</span> ↑), and bubble size represents model storage size (MB ↓), revealing that compact models achieve substantial storage reduction while maintaining high quality and rendering speed.
+          </p>
+          <div class="columns" style="margin-top:1rem; align-items: flex-end;">
+            <div class="column is-half">
+              <img src="[Static]Bubble Chart9-1.png" style="width:100%; border-radius:8px;">
+            </div>
+            <div class="column is-half">
+              <img src="dynamic_bubble_chart5-1.png" style="width:100%; border-radius:8px;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+        
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Future Directions</h2>
+        <div class="content">
+          <p style="text-align:justify;">
+            Despite advances in efficient 3DGS, we identify critical challenges in hardware optimization for resource-constrained devices, long-sequence processing for dynamic scenes, and semantically-aware compression strategies. We propose future research directions including developing generalizable foundation models without per-scene optimization, enabling user-controllable quality-efficiency trade-offs, and enhancing reliability and robustness for safety-critical applications.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section is-small" id="umi">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-1 has-text-centered is-size-4-mobile">Acknowledgment</h2>
+        <div class="content">
+          <!-- We would like to express our sincere gratitude to Yunning Peng, Haoran Feng, Shi Luo, Ruihua Lu for their valuable contributions that greatly improved the quality of this paper. We also gratefully acknowledge the generous support of Antigravity Team and Insta360 Research Team, whose assistance in various aspects made this work possible. -->
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Citation -->
+  <section>
+    <h2>Citation</h2>
+<pre>
+<!-- @article{lin2025panorama,
+  title={One Flight Over the Gap: A Survey from Perspective to Panoramic Vision},
+  author={Lin, Xin and Ge, Xian and Zhang, Dizhe and Wan, Zhaoliang and Wang, Xianshun and Li, Xiangtai and Jiang, Wenjie and Du, Bo and Tao, Dacheng and Yang, Ming-Hsuan and Qi, Lu},
+  journal={arXiv},
+  year={2025}
+} -->
+</pre>
+  </section>
+
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            Website template modified from <a href="https://nerfies.github.io/">NeRFies</a>, <a
+              href="https://huy-ha.github.io/scalingup/">Scaling Up Distilling Down</a>, and <a href="https://umi-on-legs.github.io/">UMI on Legs</a>.
+          </p>
+          <p>
+            This website is licensed under a <a rel="license"
+              href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This means you are free to borrow and modify the <a
+              href="https://github.com/nerfies/nerfies.github.io">source
+              code</a> of this website as long as
+            you link back to the <a href="https://nerfies.github.io/">NeRFies</a> page in the footer.
+            Please remember to remove the analytics code included in the header of the website which
+            you do not want on your website.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
