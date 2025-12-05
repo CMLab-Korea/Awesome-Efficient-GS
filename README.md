@@ -1,4 +1,4 @@
-# Awesome Efficient GS: Compactness and Compression
+# Awesome-Efficient-GS: Compactness and Compression
 
 ### 🏆 SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting
 
