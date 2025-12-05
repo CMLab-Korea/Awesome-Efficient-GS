@@ -1,32 +1,33 @@
-# SUCCESS-GS
+# Awesome Efficient GS: Compactness and Compression
 
-### 🏆 SUCCESS-GS: SUrvey of Compact and Compression for Efficient Static & dynamic Gaussian Splatting
+### 🏆 SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting
 
 <p align="center">
   <img src="img/image1.png" alt="figure">
 </p>
 
 
-
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.SUCCESS-GS)](https://github.com/CMLab-Korea/SUCCESS-GS)
-[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2506.16262)
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/CMLab-Korea/SUCCESS-GS?style=social)](https://github.com/CMLab-Korea/SUCCESS-GS/stargazers)
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
-**"SUCCESS-GS: SUrvey of Compact and Compression for Efficient Static & dynamic Gaussian Splatting"** (arXiv2025).
+**"SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting"** (arXiv2025).
 
-> 📝 **Authors**: SEOKHYUN YOUN<sup>1</sup>, SOOHYUN LEE<sup>2</sup>, GEONHO KIM<sup>1</sup>, SUNG-HO BAE<sup>2</sup>, and JIHYUNG OH<sup>1†</sup>
+> 📝 **Authors**: Seokhyun Youn<sup>1*</sup>, Soohyun Lee<sup>2*</sup>, Geonho Kim<sup>1*</sup>, Weeyoung Kwon<sup>1</sup>, Sung-Ho Bae<sup>2†</sup>, and Jihyong Oh<sup>1†</sup>
 
 > 🎓 **Institution**: </br>
 > * <sup>1</sup> **Chung-Ang University**, South Korea </br>
 > * <sup>2</sup> **Kyung Hee University**, South Korea
 
+> * <sup>*</sup> These authors contributed equally to this paper.
+> * <sup>†</sup> Co-corresponding authors.
 ---
 
 ## 📘 Abstract
 
-Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian Splatting (3DGS) have achieved significant progress in photorealistic 3D scene reconstruction and novel view synthesis. However, most existing models assume clean and high-resolution (HR) multi-view inputs, which limits their robustness under real-world degradations such as noise, blur, low-resolution (LR), and weather-induced artifacts. To address these limitations, the emerging field of 3D Low-Level Vision (3D LLV) extends classical 2D Low-Level Vision tasks including super-resolution (SR), deblurring, weather degradation removal, restoration, and enhancement into the 3D spatial domain. This survey, referred to as R<sup>3</sup>eVision, provides a comprehensive overview of robust rendering, restoration, and enhancement for 3D LLV by formalizing the degradation-aware rendering problem and identifying key challenges related to spatio-temporal consistency and ill-posed optimization. Recent methods that integrate LLV into neural rendering frameworks are categorized to illustrate how they enable high-fidelity 3D reconstruction under adverse conditions. Application domains such as autonomous driving, AR/VR, and robotics are also discussed, where reliable 3D perception from degraded inputs is critical. By reviewing representative methods, datasets, and evaluation protocols, this work positions 3D LLV as a fundamental direction for robust 3D content generation and scene-level reconstruction in real-world environments. We maintain an up-to-date project page: \url{https://github.com/CMLab-Korea/Awesome-3D-Low-Level-Vision}.
+ 3D Gaussian Splatting (3DGS) has emerged as a powerful explicit representation enabling real-time, high-fidelity 3D reconstruction and novel view synthesis. However, its practical use is hindered by the massive memory and computational demands required to store and render millions of Gaussians. These challenges become even more severe in 4D dynamic scenes. To address these issues, the field of Efficient Gaussian Splatting has rapidly evolved, proposing methods that reduce redundancy while preserving reconstruction quality. This survey provides the first unified overview of efficient 3D and 4D Gaussian Splatting techniques. For both 3D and 4D settings, we systematically categorize existing methods into two major directions, Parameter Compression and Restructuring Compression, and comprehensively summarize the core ideas and methodological trends within each category. We further cover widely used datasets, evaluation metrics, and representative benchmark comparisons. Finally, we discuss current limitations and outline promising research directions toward scalable, compact, and real-time Gaussian Splatting for both static and dynamic 3D scene representation. Our project page is available at the following link: https://CMLab-Korea.github.io/SUCCESS-GS/
 
 
 ---
@@ -43,8 +44,8 @@ Neural rendering methods such as Neural Radiance Fields (NeRF) and 3D Gaussian S
 
 ## 📣 News
 
-- 📌 2025-??: Paper released to ArXiv.
-- 🚀 2025-??: Repository initialized.
+- 📌 2025-12: Paper released to ArXiv.
+- 🚀 2025-12: Repository initialized.
 
 ---
 
@@ -54,7 +55,7 @@ If you find this survey helpful, please consider citing us:
 
 ```citation
 @article{SUCCESS-GS,
-  title={SUCCESS-GS: SUrvey of Compact and Compression for Efficient Static & dynamic Gaussian Splatting},
+  title={SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting},
   author={Youn, Seokhuyn and Lee, Soohyun and Kim, Geonho and Bae, Sungho and Oh, Jihyong},
   journal={??},
   year={2025}
@@ -83,20 +84,19 @@ Together, we hope to accelerate the development of scalable, compact, and high-p
 
 ---
 
-## 🔍 Survey Paper
+## 🏆 Survey Paper
 
-You can find the preprint of our survey here:  
-📄 
+You can find the preprint of our survey here:  아카이브 링크추가.
 
 
-The overview of our survey paper:
+The overview of our survey paper (Our survey includes works available up to November 28, 2025.):
 ![SUCCESS-GS category](./img/image2.png)
 
 ---
 
 ## 📄 Paper List
 
-We categorize recent Efficient 3D/4DGS papers by methodology:  
+We categorize recent Efficient 3D/4DGS papers by methodology (up to November 28, 2025):  
 
 
 ## 3.STATIC
@@ -216,7 +216,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
+
 </tr>
 </thead>
 <tbody>
@@ -229,7 +229,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2024</td>
-<td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -239,7 +238,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -252,7 +250,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -265,17 +262,24 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-73411-3_19">
-       CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization.
+    <a href="https://doi.org/10.1109/CVPR52733.2024.02052">
+      Compact 3D Gaussian Representation for Radiance Field
     </a>
   </td>
-  <td align="center">ECCV</td>
+  <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/fd881d3b625437354d4421818f81058f-Paper-Conference.pdf">
+      LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS
+    </a>
+  </td>
+  <td align="center">NeurIPS</td>
+  <td align="center">2024</td>
 </tr>
 <tr>
   <td align="left">
@@ -285,7 +289,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-73411-3_19">
+       CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization.
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2024</td>
 </tr>
 <tr>
   <td align="left">
@@ -295,7 +307,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ACM MM</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -305,7 +316,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ACM MM</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -317,7 +327,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 
 </tr>
 </thead>
@@ -331,7 +340,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center"> </td>
 </tr>
 <tr>
   <td align="left">
@@ -341,7 +349,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -351,7 +358,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -361,7 +367,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ICLR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -373,7 +378,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -386,7 +390,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -397,7 +400,6 @@ Lod-structured 3D Gaussians
   </td>
   <td align="center">TPAMI</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -408,7 +410,6 @@ Gaussian Splatting
   </td>
   <td align="center">SIGGRAPH</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -418,7 +419,6 @@ Gaussian Splatting
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -428,7 +428,6 @@ Gaussian Splatting
   </td>
   <td align="center">ICASSP</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -439,7 +438,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">CVPR</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -449,7 +447,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -459,7 +456,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -469,7 +465,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 
 </tbody>
@@ -484,7 +479,6 @@ Level of Detail and Scalable Compression
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -497,7 +491,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -507,7 +500,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center"> </td>
 </tr>
 <tr>
   <td align="left">
@@ -517,7 +509,6 @@ Level of Detail and Scalable Compression
   </td>
   <td align="center">ACM MM</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -528,7 +519,6 @@ Anchor Level Context Model
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -538,7 +528,6 @@ Anchor Level Context Model
   </td>
   <td align="center">arxiv</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -548,7 +537,6 @@ Anchor Level Context Model
   </td>
   <td align="center">ICLR</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -558,7 +546,6 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
   </td>
   <td align="center">AAAI</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -568,7 +555,6 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
   </td>
   <td align="center">ICME</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -578,7 +564,6 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -590,7 +575,6 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -603,7 +587,6 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -612,7 +595,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">AAAI</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -622,7 +604,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">ACM MM</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 </tbody>
 </table>
@@ -634,7 +615,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -646,7 +626,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
   
 <tr>
@@ -657,7 +636,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -667,7 +645,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">CVPR</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 
 </tbody>
@@ -683,7 +660,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -695,7 +671,6 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">arxiv</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -705,7 +680,6 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -715,7 +689,6 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -726,7 +699,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -736,7 +708,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -746,7 +717,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 
 
@@ -760,7 +730,6 @@ in Neural Information Processing Systems
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 
 </tr>
 </thead>
@@ -773,7 +742,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">Diffusion-based</td>
 </tr>
 
 </tbody>
@@ -786,7 +754,6 @@ in Neural Information Processing Systems
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 
 </tr>
 </thead>
@@ -799,7 +766,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">arxiv</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 
 </tbody>
@@ -812,7 +778,6 @@ in Neural Information Processing Systems
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 
 </tr>
 </thead>
@@ -825,7 +790,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">CVPR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -835,7 +799,6 @@ in Neural Information Processing Systems
   </td>
   <td align="center">ICCV</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -846,7 +809,6 @@ Splatting
   </td>
   <td align="center">ICLR</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 
 </tbody>
@@ -860,7 +822,6 @@ Splatting
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -872,7 +833,6 @@ Splatting
   </td>
   <td align="center">ICASSP</td>
   <td align="center">2024</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -882,7 +842,6 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
   </td>
   <td align="center">AAAI</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -892,7 +851,6 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
   </td>
   <td align="center">CVPR</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -902,7 +860,6 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 
 </tbody>
@@ -980,7 +937,6 @@ in Neural Information Processing Systems
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
@@ -993,7 +949,6 @@ Redundancy-filtering Training on Streaming Content
   </td>
   <td align="center">arxiv</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 <tr>
   <td align="left">
@@ -1003,7 +958,6 @@ Redundancy-filtering Training on Streaming Content
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
-  <td align="center">-</td>
 </tr>
 
 
@@ -1046,8 +1000,7 @@ This section summarizes commonly used metrics for evaluating the quality of 3D l
 | -------------------------------------------------------------      | -----------------------------| ---- | ---- |
 | [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)| - | Full-Reference | - |
 | [SSIM](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1284395)| IEEE TIP | Full-Reference | 2004 |
-| [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)| CVPR | Full-Reference | 2018 |
-| 
+| [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)| CVPR | Full-Reference | 2018 ||
 ---
 
 ### 🆚 Full-reference Metric
@@ -1069,14 +1022,25 @@ These metrics compare each interpolated frame to its ground truth (GT) reference
 ---
 
 ### 📊 No-reference Metric
+- <strong>Model Size</strong>
+  <br>Measures the model size either in megabytes or in term of the total number of Gaussians.
+  <br> 📌Smaller model size indicates more compact representations and better memory efficiency.
 
+- <strong>Compression Ratio / Reduction Percentage</strong>
+  <br>Measures the degree of compactness achieved compared to the original model.
+  <br> 📌Higher compression ratio (or reduction percentage) reflects more effective
+elimination of redundancy while ideally preserving rendering quality.
+
+- <strong>Training Time</strong>
+  <br>Represents the total time required to optimize the model from initialization to convergence.
+  <br> 📌Faster training time highlights the practicality of a method, particularly for large-scale or dynamic scenes.
+
+- <strong>Inference FPS (Frames Per Second)</strong>
+  <br>Represents the total time required to optimize the model from initialization to convergence.
+  <br> 📌Higher FPS values are crucial for interactive applications such as AR/VR and
+robotics.
 ---
 
-### ⏱️ Temporal Consistency
-
-* <a href="https://dl.acm.org/doi/abs/10.1145/3386569.3392457" target="_blank"><strong>tOF</strong></a>
-  <br> Measures how consistent optical flow is across frames.
-  <br>📌 Lower tOF = smoother motion continuity.
 
 ## 💫 Star History
 
