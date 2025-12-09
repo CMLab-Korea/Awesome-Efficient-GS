@@ -9,7 +9,7 @@
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.SUCCESS-GS)](https://github.com/CMLab-Korea/SUCCESS-GS)
-[![arXiv](https://arxiv.org/abs/2512.07197)]()
+[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)](https://arxiv.org/abs/2512.07197)
 [![GitHub Repo stars](https://img.shields.io/github/stars/CMLab-Korea/SUCCESS-GS?style=social)](https://github.com/CMLab-Korea/SUCCESS-GS/stargazers)
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
