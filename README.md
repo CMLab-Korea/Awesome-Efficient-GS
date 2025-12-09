@@ -9,7 +9,7 @@
 
 [![awesome](https://img.shields.io/badge/awesome-yes-critical?style=flat&logo=awesome-lists&labelColor=purple)](https://github.com/sindresorhus/awesome)
 [![Visitors](https://visitor-badge.laobi.icu/badge?page_id=CMLab-Korea.SUCCESS-GS)](https://github.com/CMLab-Korea/SUCCESS-GS)
-[![arXiv](https://img.shields.io/badge/arXiv-Preprint-b31b1b.svg)]()
+[![arXiv](https://arxiv.org/abs/2512.07197)]()
 [![GitHub Repo stars](https://img.shields.io/github/stars/CMLab-Korea/SUCCESS-GS?style=social)](https://github.com/CMLab-Korea/SUCCESS-GS/stargazers)
 
 This repository provides a curated collection of papers, benchmarks, and resources from our survey:  
@@ -54,11 +54,14 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 If you find this survey helpful, please consider citing us:
 
 ```citation
-@article{SUCCESS-GS,
-  title={SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting},
-  author={Youn, Seokhuyn and Lee, Soohyun and Kim, Geonho and Bae, Sungho and Oh, Jihyong},
-  journal={??},
-  year={2025}
+@misc{youn2025successgssurveycompactnesscompression,
+      title={SUCCESS-GS: Survey of Compactness and Compression for Efficient Static and Dynamic Gaussian Splatting}, 
+      author={Seokhyun Youn and Soohyun Lee and Geonho Kim and Weeyoung Kwon and Sung-Ho Bae and Jihyong Oh},
+      year={2025},
+      eprint={2512.07197},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.07197}, 
 }
 ```
 ---
