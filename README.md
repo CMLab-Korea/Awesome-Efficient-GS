@@ -89,7 +89,7 @@ Together, we hope to accelerate the development of scalable, compact, and high-p
 
 ## 🏆 Survey Paper
 
-You can find the preprint of our survey here:  아카이브 링크추가.
+You can find the preprint of our survey here: https://arxiv.org/abs/2512.07197
 
 
 The overview of our survey paper (Our survey includes works available up to November 28, 2025.):
@@ -972,7 +972,7 @@ Redundancy-filtering Training on Streaming Content
 
 ## 📊 5.1. Datasets
 
-We summarize commonly used datasets for static and dynamic scenes.\
+We summarize commonly used datasets for static and dynamic scenes.
 
 ### For static scenes
 | **Dataset**              | Venue |  Type  | Modality |   #Views   | #Scenes| Resolution | Environment |
