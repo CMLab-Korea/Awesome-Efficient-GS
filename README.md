@@ -93,14 +93,14 @@ Together, we hope to accelerate the development of scalable, compact, and high-p
 You can find the preprint of our survey here: https://arxiv.org/abs/2512.07197
 
 
-The overview of our survey paper (Our survey includes works available up to November 28, 2025.):
+The overview of our survey paper (Our survey includes works available up to February 3, 2026.):
 ![SUCCESS-GS category](./img/image2.png)
 
 ---
 
 ## 📄 Paper List
 
-We categorize recent Efficient 3D/4DGS papers by methodology (up to November 28, 2025):  
+We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 2026):  
 
 
 ## 3.STATIC
