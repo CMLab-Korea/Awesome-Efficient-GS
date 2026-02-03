@@ -44,6 +44,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📣 News
 
+- 📌 2026.02.03: ICLR 2026 papers updated.
 - 📌 2025-12: Paper released to ArXiv.
 - 🚀 2025-12: Repository initialized.
 
@@ -200,12 +201,62 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to November 28,
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10943631">
       Elmgs: Enhancing Memory and Computation Scalability through Compression for
-3D Gaussian Splatting.  
+3D Gaussian Splatting.
     </a>
   </td>
   <td align="center">WACV</td>
   <td align="center">2025</td>
 <td align="center">Gradient-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=vRegY0pgvQ">
+      Mobile-GS: Real-time Gaussian Splatting for Mobile Devices
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+      UrbanGS: Efficient and Scalable Architecture for Geometrically Accurate Large-Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=e97PUwaiIi">
+      MEGS^{2}: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+<td align="center">Learnable mask-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2601.00913">
+      Clean-GS: Semantic Mask-Guided Pruning for 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2026</td>
+<td align="center">Semantic mask-guided</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2412.20522">
+      MaskGaussian: Adaptive 3D Gaussian Representation from Probabilistic Masks
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+<td align="center">Learnable mask-based</td>
 </tr>
 
 </tr>
@@ -241,6 +292,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to November 28,
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=e97PUwaiIi">
+      MEGS^{2}: Memory-Efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
 </tr>
 </tbody>
 </table>
@@ -319,6 +379,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to November 28,
   </td>
   <td align="center">ACM MM</td>
   <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=vRegY0pgvQ">
+      Mobile-GS: Real-time Gaussian Splatting for Mobile Devices
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
 </tr>
 </tbody>
 </table>
@@ -469,6 +538,15 @@ Level of Detail and Scalable Compression
   <td align="center">arxiv</td>
   <td align="center">2025</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+      UrbanGS: Efficient and Scalable Architecture for Geometrically Accurate Large-Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
@@ -608,6 +686,15 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   <td align="center">ACM MM</td>
   <td align="center">2025</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=EPN5MU4liR">
+      A^2TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -648,6 +735,15 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
   </td>
   <td align="center">CVPR</td>
   <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=IzlaRUHncO">
+      Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
 </tr>
 
 </tbody>
@@ -813,6 +909,15 @@ Splatting
   <td align="center">ICLR</td>
   <td align="center">2024</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2512.05446">
+      TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+</tr>
 
 </tbody>
 </table>
@@ -862,6 +967,15 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
     </a>
   </td>
   <td align="center">NeurIPS</td>
+  <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://dl.acm.org/doi/full/10.1145/3757377.3763898">
+      Anchored 4D Gaussian Splatting for Dynamic Novel View Synthesis
+    </a>
+  </td>
+  <td align="center">SIGGRAPH</td>
   <td align="center">2025</td>
 </tr>
 
@@ -929,6 +1043,26 @@ in Neural Information Processing Systems
   <td align="center">2024</td>
   <td align="center">Explicit Deformation</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2512.14352">
+      HGS: Hybrid Gaussian Splatting with Static-Dynamic Decomposition for Compact Dynamic View Synthesis
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">Explicit Deformation</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2512.05446">
+      TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
+    </a>
+  </td>
+  <td align="center">arxiv</td>
+  <td align="center">2025</td>
+  <td align="center">Explicit Deformation</td>
+</tr>
 
 </tbody>
 </table>
@@ -964,6 +1098,29 @@ Redundancy-filtering Training on Streaming Content
 </tr>
 
 
+
+</tbody>
+</table>
+
+### 4.2.4. Mixture-of-Experts
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=WrEQFwWCdT">
+      MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
