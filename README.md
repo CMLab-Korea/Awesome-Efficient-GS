@@ -161,7 +161,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2503.16924">
-       Optimized Minimal 3D Gaussian Splatting
+      Optimized Minimal 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -171,7 +171,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/11092397/">
-       Pup 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting
+      Pup 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -190,7 +190,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2406.18214">
- Trimming the Fat: Efficient Compression of 3D Gaussian Splats through Pruning
+      Trimming the Fat: Efficient Compression of 3D Gaussian Splats through Pruning
     </a>
   </td>
   <td align="center">BMVC</td>
@@ -200,8 +200,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10943631">
-      Elmgs: Enhancing Memory and Computation Scalability through Compression for
-3D Gaussian Splatting
+      Elmgs: Enhancing Memory and Computation Scalability through Compression for 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">WACV</td>
@@ -287,7 +286,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73636-0_5">
-     End-to-end Rate-distortion Optimized 3D Gaussian Representation
+      End-to-end Rate-distortion Optimized 3D Gaussian Representation
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -320,7 +319,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10655416">
-       Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
+      Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -347,7 +346,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73636-0_5">
-     End-to-end Rate-distortion Optimized 3D Gaussian Representation
+      End-to-end Rate-distortion Optimized 3D Gaussian Representation
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -356,7 +355,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73411-3_19">
-       CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization
+      CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -374,7 +373,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://dl.acm.org/doi/pdf/10.1145/3746027.3754744">
-       Flexgaussian: Flexible and Cost-effective Training-free Compression for 3D Gaussian Splatting
+      Flexgaussian: Flexible and Cost-effective Training-free Compression for 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">ACM MM</td>
@@ -407,7 +406,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10655416">
-       Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
+      Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -416,7 +415,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73636-0_5">
-     End-to-end Rate-distortion Optimized 3D Gaussian Representation
+      End-to-end Rate-distortion Optimized 3D Gaussian Representation
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -457,7 +456,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73013-9_2">
-     Compact 3D Scene Representation via Self-organizing Gaussian Grids
+      Compact 3D Scene Representation via Self-organizing Gaussian Grids
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -466,8 +465,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10993308">
- Octree-GS: Towards Consistent Real-time Rendering with
-Lod-structured 3D Gaussians
+      Octree-GS: Towards Consistent Real-time Rendering with Lod-structured 3D Gaussians
     </a>
   </td>
   <td align="center">TPAMI</td>
@@ -476,8 +474,7 @@ Lod-structured 3D Gaussians
 <tr>
   <td align="left">
     <a href="https://dl.acm.org/doi/10.1145/3651282">
-       Reducing the Memory Footprint of 3D
-Gaussian Splatting
+      Reducing the Memory Footprint of 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">ACM I3D</td>
@@ -486,7 +483,7 @@ Gaussian Splatting
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73414-4_25">
-       MesonGS: Post-training Compression of 3D Gaussians via Efficient Attribute Transformation
+      MesonGS: Post-training Compression of 3D Gaussians via Efficient Attribute Transformation
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -504,8 +501,7 @@ Gaussian Splatting
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2501.13558">
-        GoDe: Gaussians on Demand for Progressive
-Level of Detail and Scalable Compression
+      GoDe: Gaussians on Demand for Progressive Level of Detail and Scalable Compression
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -523,7 +519,7 @@ Level of Detail and Scalable Compression
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2506.09534">
-       Gaussian Herding Across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS
+      Gaussian Herding Across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -532,7 +528,7 @@ Level of Detail and Scalable Compression
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2506.14229">
-       HRGS: Hierarchical Gaussian Splatting for Memory-efficient High-resolution 3D Reconstruction
+      HRGS: Hierarchical Gaussian Splatting for Memory-efficient High-resolution 3D Reconstruction
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -585,7 +581,7 @@ Level of Detail and Scalable Compression
 <tr>
   <td align="left">
     <a href="https://dl.acm.org/doi/proceedings/10.1145/3664647">
-    CompGS: Efficient 3D Scene Representation via Compressed Gaussian Splatting
+      CompGS: Efficient 3D Scene Representation via Compressed Gaussian Splatting
     </a>
   </td>
   <td align="center">ACM MM</td>
@@ -594,8 +590,7 @@ Level of Detail and Scalable Compression
 <tr>
   <td align="left">
     <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/5c20ca4b0b20b0bd2f1d839dc605e70f-Paper-Conference.pdf">
-      ContextGS: Compact 3D Gaussian Splatting with
-Anchor Level Context Model
+      ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -604,7 +599,7 @@ Anchor Level Context Model
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2411.18473">
-     HEMGS: A Hybrid Entropy Model for 3D Gaussian Splatting Data Compression
+      HEMGS: A Hybrid Entropy Model for 3D Gaussian Splatting Data Compression
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -622,7 +617,7 @@ Anchor Level Context Model
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2503.08511">
-PCGS: Progressive Compression of 3D Gaussian Splatting
+      PCGS: Progressive Compression of 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">AAAI</td>
@@ -640,7 +635,7 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2505.22908">
-     3DGS Compression with Sparsity-guided Hierarchical Transform Coding
+      3DGS Compression with Sparsity-guided Hierarchical Transform Coding
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -672,7 +667,7 @@ PCGS: Progressive Compression of 3D Gaussian Splatting
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2503.23162">
-NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Representations
+      NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Representations
     </a>
   </td>
   <td align="center">AAAI</td>
@@ -681,7 +676,7 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
 <tr>
   <td align="left">
     <a href="https://dl.acm.org/doi/10.1145/3746027.3755432">
-3D Gaussian Splatting Data Compression with Mixture of Priors
+      3D Gaussian Splatting Data Compression with Mixture of Priors
     </a>
   </td>
   <td align="center">ACM MM</td>
@@ -722,7 +717,7 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-72655-2_13">
-       Mini-splatting: Representing Scenes with a Constrained Number of Gaussians
+      Mini-splatting: Representing Scenes with a Constrained Number of Gaussians
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -731,7 +726,7 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2406.02720">
-     3D-HGS: 3D Half-Gaussian Splatting
+      3D-HGS: 3D Half-Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -769,13 +764,13 @@ NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Repres
       Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2024</td>
+  <td align="center">BMVC</td>
+  <td align="center">2025</td>
 </tr>
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2506.07917">
-Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynamic Scenes
+      Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynamic Scenes
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -793,7 +788,7 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
 <tr>
   <td align="left">
     <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/09b47a77997b7dd7d2b26bd8ff769392-Paper-Conference.pdf">
-     Fully Explicit Dynamic Gaussian Splatting
+      Fully Explicit Dynamic Gaussian Splatting
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -802,7 +797,7 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10655553">
-3DGStream: On-the-fly Training of 3D Gaussians for Efficient Streaming of Photo-realistic Free-viewpoint Videos
+      3DGStream: On-the-fly Training of 3D Gaussians for Efficient Streaming of Photo-realistic Free-viewpoint Videos
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -836,7 +831,7 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2505.13215">
-     Hybrid 3D-4D Gaussian Splatting for Fast Dynamic Scene Representation
+      Hybrid 3D-4D Gaussian Splatting for Fast Dynamic Scene Representation
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -884,7 +879,7 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10658408">
-    HiFi4G: High-fidelity Human Performance Rendering via Compact Gaussian Splatting
+      HiFi4G: High-fidelity Human Performance Rendering via Compact Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -902,8 +897,7 @@ Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynam
 <tr>
   <td align="left">
     <a href="https://arxiv.org/pdf/2310.10642">
- Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian
-Splatting
+      Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
     </a>
   </td>
   <td align="center">ICLR</td>
@@ -939,13 +933,13 @@ Splatting
       MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds
     </a>
   </td>
-  <td align="center">ICASSP</td>
-  <td align="center">2024</td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
 </tr>
 <tr>
   <td align="left">
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/32460">
-Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Time-variant Attribute Modeling
+      Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Time-variant Attribute Modeling
     </a>
   </td>
   <td align="center">AAAI</td>
@@ -963,7 +957,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2506.09518">
-     HAIF-GS: Hierarchical and Induced Flow-guided Gaussian Splatting for Dynamic Scene
+      HAIF-GS: Hierarchical and Induced Flow-guided Gaussian Splatting for Dynamic Scene
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -975,7 +969,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
       Anchored 4D Gaussian Splatting for Dynamic Novel View Synthesis
     </a>
   </td>
-  <td align="center">SIGGRAPH</td>
+  <td align="center">SIGGRAPH Asia</td>
   <td align="center">2025</td>
 </tr>
 
@@ -1006,7 +1000,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/106567740">
-4D Gaussian Splatting for Real-time Dynamic Scene Rendering
+      4D Gaussian Splatting for Real-time Dynamic Scene Rendering
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -1016,7 +1010,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2312.00583">
-    DeformGS: Scene Flow in Highly Deformable Scenes for Deformable Object Manipulation
+      DeformGS: Scene Flow in Highly Deformable Scenes for Deformable Object Manipulation
     </a>
   </td>
   <td align="center">WAFR</td>
@@ -1026,7 +1020,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 <tr>
   <td align="left">
     <a href="https://ieeexplore.ieee.org/document/10657623">
-     Spacetime Gaussian Feature Splatting for Real-time Dynamic View Synthesis
+      Spacetime Gaussian Feature Splatting for Real-time Dynamic View Synthesis
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -1035,7 +1029,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 </tr>
   <td align="left">
     <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/09b47a77997b7dd7d2b26bd8ff769392-Paper-Conference.pdf">
-     Fully Explicit Dynamic Gaussian Splatting
+      Fully Explicit Dynamic Gaussian Splatting
     </a>
   </td>
   <td align="center">NeurIPS</td>
@@ -1079,8 +1073,7 @@ Efficient Gaussian Splatting for Monocular Dynamic Scene Rendering via Sparse Ti
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2508.21444">
-      Scale-GS: Efficient Scalable Gaussian Splatting via
-Redundancy-filtering Training on Streaming Content
+      Scale-GS: Efficient Scalable Gaussian Splatting via Redundancy-filtering Training on Streaming Content
     </a>
   </td>
   <td align="center">arXiv</td>
@@ -1089,7 +1082,7 @@ Redundancy-filtering Training on Streaming Content
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2509.17513">
-4DGCPro: Efficient Hierarchical 4D Gaussian Compression for Progressive Volumetric Video Streaming
+      4DGCPro: Efficient Hierarchical 4D Gaussian Compression for Progressive Volumetric Video Streaming
     </a>
   </td>
   <td align="center">NeurIPS</td>
