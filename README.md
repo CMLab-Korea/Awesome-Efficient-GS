@@ -338,6 +338,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">ICLR</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.29185">
+      Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1240,6 +1249,16 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
     </a>
   </td>
   <td align="center">WACV</td>
+  <td align="center">2026</td>
+  <td align="center">Explicit Deformation</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.25058">
+      Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos
+    </a>
+  </td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
   <td align="center">Explicit Deformation</td>
 </tr>
