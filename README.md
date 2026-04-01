@@ -520,7 +520,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
       Adaptive Voxelization for Transform Coding of 3D Gaussian Splatting Data
     </a>
   </td>
-  <td align="center">arXiv</td>
+  <td align="center">IEEE ICIP</td>
   <td align="center">2025</td>
 </tr>
 <tr>
@@ -777,11 +777,11 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
 <tr>
   <td align="left">
     <a href="https://arxiv.org/abs/2506.07917">
-      Speedy Deformable 3D Gaussian Splatting: Fast Rendering and Compression of Dynamic Scenes
+      SpeeDe3DGS: Speedy Deformable 3D Gaussian Splatting with Temporal Pruning and Motion Grouping
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2025</td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
 </tr>
 <tr>
   <td align="left">
@@ -865,8 +865,8 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
       Temporally Compressed 3D Gaussian Splatting for Dynamic Scenes
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2024</td>
+  <td align="center">BMVC</td>
+  <td align="center">2025</td>
 </tr>
 
 </tbody>
@@ -916,8 +916,8 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
       TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2025</td>
+  <td align="center">WACV</td>
+  <td align="center">2026</td>
 </tr>
 
 </tbody>
@@ -1059,8 +1059,8 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
       TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
     </a>
   </td>
-  <td align="center">arXiv</td>
-  <td align="center">2025</td>
+  <td align="center">WACV</td>
+  <td align="center">2026</td>
   <td align="center">Explicit Deformation</td>
 </tr>
 
