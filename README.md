@@ -264,6 +264,36 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">2025</td>
 <td align="center">Learnable mask-based</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.23297">
+      Drop-In Perceptual Optimization for 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+<td align="center">Gradient-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.21933">
+      Camera-Agnostic Pruning of 3D Gaussian Splats via Descriptor-Based Beta Evidence
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2602.24136">
+      Prune Wisely, Reconstruct Sharply: Compact 3D Gaussian Splatting via Adaptive Pruning and Difference-of-Gaussian Primitives
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
 
 </tr>
 </tbody>
@@ -393,6 +423,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
     </a>
   </td>
   <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.24146">
+      LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds
+    </a>
+  </td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
 </tbody>
@@ -550,6 +589,33 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">ICLR</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.19234">
+      Matryoshka Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.23891">
+      FilterGS: Traversal-Free Parallel Filtering and Adaptive Shrinking for Large-Scale LoD 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+      From ex(p) to poly: Gaussian Splatting with Polynomial Kernels
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
@@ -648,6 +714,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">arXiv</td>
   <td align="center">2025</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.22851">
+      UniQueR: Unified Query-based Feedforward 3D Reconstruction
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -698,6 +773,33 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">ICLR</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.25265">
+      ViewSplat: View-Adaptive Dynamic Gaussian Splatting for Feed-Forward Synthesis
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.23192">
+      GTLR-GS: Geometry-Texture Aware LiDAR-Regularized 3D Gaussian Splatting for Realistic Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.15433">
+      Real-Time Human Frontal View Synthesis from a Single Image
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -746,6 +848,66 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
     </a>
   </td>
   <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.21064">
+      2Xplat: Two Experts Are Better Than One Generalist
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.21304">
+      F4Splat: Feed-Forward Predictive Densification for Feed-Forward 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.16103">
+      NanoGS: Training-Free Gaussian Splat Simplification
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+
+</tbody>
+</table>
+
+### 3.2.4. Pipeline Optimization
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2408.07967">
+      FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2602.09999">
+      Faster-GS: Analyzing and Improving Gaussian Splatting Optimization
+    </a>
+  </td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
 
@@ -979,6 +1141,24 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">SIGGRAPH Asia</td>
   <td align="center">2025</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.18402">
+      Inst4DGS: Instance-Decomposed 4D Gaussian Splatting with Multi-Video Label Permutation Learning
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.17227">
+      Adaptive Anchor Policies for Efficient 4D Gaussian Streaming
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
@@ -1063,6 +1243,16 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">2026</td>
   <td align="center">Explicit Deformation</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.25042">
+      MoRGS: Efficient Per-Gaussian Motion Reasoning for Streamable Dynamic 3D Scenes
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+  <td align="center">Explicit Deformation</td>
+</tr>
 
 </tbody>
 </table>
@@ -1095,8 +1285,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
 </tr>
-
-
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.22893">
+      SLARM: Streaming and Language-Aligned Reconstruction Model for Dynamic Scenes
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
