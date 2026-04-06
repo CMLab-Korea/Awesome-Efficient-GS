@@ -294,8 +294,17 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">2026</td>
 <td align="center">Significance Score-based</td>
 </tr>
-
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2602.19753">
+      RAP: Fast Feedforward Rendering-Free Attribute-Guided Primitive Importance Score Prediction for Efficient 3D Gaussian Splatting Processing
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
 </tr>
+
 </tbody>
 </table>
 
@@ -342,6 +351,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="left">
     <a href="https://arxiv.org/abs/2603.29185">
       Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2602.20933">
+      Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
@@ -623,6 +641,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
     </a>
   </td>
   <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.07789">
+      SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation
+    </a>
+  </td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
 
@@ -914,6 +941,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="left">
     <a href="https://arxiv.org/abs/2602.09999">
       Faster-GS: Analyzing and Improving Gaussian Splatting Optimization
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.09277">
+      Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists
     </a>
   </td>
   <td align="center">CVPR</td>

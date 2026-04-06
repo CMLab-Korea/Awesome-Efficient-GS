@@ -1,0 +1,133 @@
+graph TB
+    Static[3. STATIC SCENES]
+
+    %% Main Categories
+    Static --> PC[3.1 Parameter Compression]
+    Static --> RC[3.2 Restructuring Compression]
+
+    %% Parameter Compression Subcategories
+    PC --> Pruning[3.1.1 Pruning<br/>18 papers]
+    PC --> AttrPruning[3.1.2 Attribute Pruning<br/>5 papers]
+    PC --> Quant[3.1.3 Quantization<br/>9 papers]
+    PC --> Entropy[3.1.4 Entropy Coding<br/>4 papers]
+    PC --> Structured[3.1.5 Structured Compression<br/>14 papers]
+
+    %% Pruning papers - vertical layout
+    Pruning --> P1[Compact 3D Gaussian<br/>CVPR 2024]
+    P1 --> P2[LightGaussian<br/>NeurIPS 2024]
+    P2 --> P3[Eagles<br/>ECCV 2024]
+    P3 --> P4[MesonGS<br/>ECCV 2024]
+    P4 --> P5[Optimized Minimal 3DGS<br/>NeurIPS 2025]
+    P5 --> P6[Pup 3D-GS<br/>CVPR 2025]
+    P6 --> P7[Speedy-Splat<br/>CVPR 2025]
+    P7 --> P8[Trimming the Fat<br/>BMVC 2024]
+    P8 --> P9[Elmgs<br/>WACV 2025]
+    P9 --> P10[Mobile-GS<br/>ICLR 2026]
+    P10 --> P11[UrbanGS<br/>ICLR 2026]
+    P11 --> P12[MEGS²<br/>ICLR 2026]
+    P12 --> P13[Clean-GS<br/>arXiv 2026]
+    P13 --> P14[MaskGaussian<br/>CVPR 2025]
+    P14 --> P15[Drop-In Perceptual<br/>arXiv 2026]
+    P15 --> P16[Camera-Agnostic Pruning<br/>arXiv 2026]
+    P16 --> P17[Prune Wisely<br/>arXiv 2026]
+    P17 --> P18[RAP<br/>CVPR 2026]
+
+    %% Attribute Pruning papers - vertical layout
+    AttrPruning --> AP1[LightGaussian<br/>NeurIPS 2024]
+    AP1 --> AP2[End-to-end RDO<br/>ECCV 2024]
+    AP2 --> AP3[MEGS²<br/>ICLR 2026]
+    AP3 --> AP4[Hierarchical Visual Reloc.<br/>CVPR 2026]
+    AP4 --> AP5[Dropping Anchor and SH<br/>CVPR 2026]
+
+    %% Quantization papers - vertical layout
+    Quant --> Q1[Compressed 3DGS<br/>CVPR 2024]
+    Q1 --> Q2[Compact 3D Gaussian<br/>CVPR 2024]
+    Q2 --> Q3[LightGaussian<br/>NeurIPS 2024]
+    Q3 --> Q4[End-to-end RDO<br/>ECCV 2024]
+    Q4 --> Q5[CompGS<br/>ECCV 2024]
+    Q5 --> Q6[SizeGS<br/>ACM MM 2024]
+    Q6 --> Q7[Flexgaussian<br/>ACM MM 2025]
+    Q7 --> Q8[Mobile-GS<br/>ICLR 2026]
+    Q8 --> Q9[LightSplat<br/>CVPR 2026]
+
+    %% Entropy Coding papers - vertical layout
+    Entropy --> E1[Compressed 3DGS<br/>CVPR 2024]
+    E1 --> E2[End-to-end RDO<br/>ECCV 2024]
+    E2 --> E3[HAC<br/>ECCV 2024]
+    E3 --> E4[Fast Feedforward 3DGS<br/>ICLR 2025]
+
+    %% Structured Compression papers - vertical layout
+    Structured --> S1[Self-organizing Gaussian<br/>ECCV 2024]
+    S1 --> S2[Octree-GS<br/>TPAMI 2025]
+    S2 --> S3[Reducing Memory<br/>ACM I3D 2024]
+    S3 --> S4[MesonGS<br/>ECCV 2024]
+    S4 --> S5[Hierarchical Compression<br/>ICASSP 2025]
+    S5 --> S6[GoDe<br/>arXiv 2025]
+    S6 --> S7[Adaptive Voxelization<br/>IEEE ICIP 2025]
+    S7 --> S8[Gaussian Herding<br/>NeurIPS 2025]
+    S8 --> S9[HRGS<br/>arXiv 2025]
+    S9 --> S10[UrbanGS<br/>ICLR 2026]
+    S10 --> S11[Matryoshka GS<br/>arXiv 2026]
+    S11 --> S12[FilterGS<br/>arXiv 2026]
+    S12 --> S13[From ex to poly<br/>arXiv 2026]
+    S13 --> S14[SGI<br/>CVPR 2026]
+
+    %% Restructuring Compression Subcategories
+    RC --> Anchor[3.2.1 Anchor-based<br/>10 papers]
+    RC --> Neural[3.2.2 Neural Network<br/>7 papers]
+    RC --> Geometric[3.2.3 Geometric Structure<br/>7 papers]
+    RC --> Pipeline[3.2.4 Pipeline Optimization<br/>3 papers]
+
+    %% Anchor-based papers - vertical layout
+    Anchor --> A1[Scaffold-GS<br/>CVPR 2024]
+    A1 --> A2[HAC<br/>ECCV 2024]
+    A2 --> A3[CompGS<br/>ACM MM 2024]
+    A3 --> A4[ContextGS<br/>NeurIPS 2024]
+    A4 --> A5[HEMGS<br/>arXiv 2024]
+    A5 --> A6[CAT-3DGS<br/>ICLR 2025]
+    A6 --> A7[PCGS<br/>AAAI 2026]
+    A7 --> A8[TC-GS<br/>ICME 2025]
+    A8 --> A9[3DGS with Transform<br/>arXiv 2025]
+    A9 --> A10[UniQueR<br/>arXiv 2026]
+
+    %% Neural Network papers - vertical layout
+    Neural --> N1[EAGLES<br/>ECCV 2024]
+    N1 --> N2[NeuralGS<br/>AAAI 2026]
+    N2 --> N3[3DGS with MoP<br/>ACM MM 2025]
+    N3 --> N4[A²TG<br/>ICLR 2026]
+    N4 --> N5[ViewSplat<br/>arXiv 2026]
+    N5 --> N6[GTLR-GS<br/>arXiv 2026]
+    N6 --> N7[Real-Time Human FVS<br/>arXiv 2026]
+
+    %% Geometric papers - vertical layout
+    Geometric --> G1[SAGS<br/>ECCV 2024]
+    G1 --> G2[Mini-splatting<br/>ECCV 2024]
+    G2 --> G3[3D-HGS<br/>CVPR 2025]
+    G3 --> G4[Augmented Radiance<br/>ICLR 2026]
+    G4 --> G5[2Xplat<br/>arXiv 2026]
+    G5 --> G6[F4Splat<br/>arXiv 2026]
+    G6 --> G7[NanoGS<br/>arXiv 2026]
+
+    %% Pipeline Optimization papers - vertical layout
+    Pipeline --> PO1[FlashGS<br/>CVPR 2025]
+    PO1 --> PO2[Faster-GS<br/>CVPR 2026]
+    PO2 --> PO3[ShorterSplatting<br/>CVPR 2026]
+
+    %% Styling
+    classDef rootClass fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
+    classDef categoryClass fill:#fff9c4,stroke:#f57c00,stroke-width:2px,color:#000
+    classDef subcategoryClass fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
+    classDef paperClass fill:#e8f5e9,stroke:#388e3c,stroke-width:1px,color:#000
+
+    class Static rootClass
+    class PC,RC categoryClass
+    class Pruning,AttrPruning,Quant,Entropy,Structured,Anchor,Neural,Geometric,Pipeline subcategoryClass
+    class P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18 paperClass
+    class AP1,AP2,AP3,AP4,AP5,Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8,Q9 paperClass
+    class E1,E2,E3,E4,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14 paperClass
+    class A1,A2,A3,A4,A5,A6,A7,A8,A9,A10 paperClass
+    class N1,N2,N3,N4,N5,N6,N7,G1,G2,G3,G4,G5,G6,G7 paperClass
+    class PO1,PO2,PO3 paperClass
+
+    %% Link styling for dark mode visibility
+    linkStyle default stroke:#666,stroke-width:2px
