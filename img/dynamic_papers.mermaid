@@ -12,24 +12,24 @@ graph TB
     DPC --> DEntropy[4.1.4 Entropy-based<br/>4 papers]
 
     %% Dynamic Gaussian Pruning - vertical layout
-    DPruning --> DP1[Temporally Compressed<br/>BMVC 2025]
-    DP1 --> DP2[SpeeDe3DGS<br/>CVPR 2026]
-    DP2 --> DP3[1000+ FPS 4DGS<br/>NeurIPS 2025]
-    DP3 --> DP4[Fully Explicit Dynamic<br/>NeurIPS 2024]
-    DP4 --> DP5[3DGStream<br/>CVPR 2024]
-    DP5 --> DP6[Instant4D<br/>NeurIPS 2025]
+    DPruning --- DP1[Temporally Compressed<br/>BMVC 2025]
+    DP1 --- DP2[SpeeDe3DGS<br/>CVPR 2026]
+    DP2 --- DP3[1000+ FPS 4DGS<br/>NeurIPS 2025]
+    DP3 --- DP4[Fully Explicit Dynamic<br/>NeurIPS 2024]
+    DP4 --- DP5[3DGStream<br/>CVPR 2024]
+    DP5 --- DP6[Instant4D<br/>NeurIPS 2025]
 
     %% Dynamic Attribute Pruning
-    DAttrPruning --> DAP1[Hybrid 3D-4D<br/>arXiv 2025]
+    DAttrPruning --- DAP1[Hybrid 3D-4D<br/>arXiv 2025]
 
     %% Dynamic Quantization
-    DQuant --> DQ1[Temporally Compressed<br/>BMVC 2025]
+    DQuant --- DQ1[Temporally Compressed<br/>BMVC 2025]
 
     %% Dynamic Entropy-based - vertical layout
-    DEntropy --> DE1[HiFi4G<br/>CVPR 2024]
-    DE1 --> DE2[MEGA<br/>ICCV 2025]
-    DE2 --> DE3[Real-time 4DGS<br/>ICLR 2024]
-    DE3 --> DE4[TED-4DGS<br/>WACV 2026]
+    DEntropy --- DE1[HiFi4G<br/>CVPR 2024]
+    DE1 --- DE2[MEGA<br/>ICCV 2025]
+    DE2 --- DE3[Real-time 4DGS<br/>ICLR 2024]
+    DE3 --- DE4[TED-4DGS<br/>WACV 2026]
 
     %% Dynamic Restructuring Compression Subcategories
     DRC --> DAnchor[4.2.1 Anchor-based<br/>7 papers]
@@ -38,29 +38,29 @@ graph TB
     DRC --> DMoE[4.2.4 Mixture-of-Experts<br/>1 paper]
 
     %% Dynamic Anchor-based - vertical layout
-    DAnchor --> DA1[MoSca<br/>CVPR 2025]
-    DA1 --> DA2[Sparse Time-variant<br/>AAAI 2025]
-    DA2 --> DA3[MoDec-GS<br/>CVPR 2025]
-    DA3 --> DA4[HAIF-GS<br/>NeurIPS 2025]
-    DA4 --> DA5[Anchored 4DGS<br/>SIGGRAPH Asia 2025]
-    DA5 --> DA6[Inst4DGS<br/>arXiv 2026]
-    DA6 --> DA7[Adaptive Anchor<br/>arXiv 2026]
+    DAnchor --- DA1[MoSca<br/>CVPR 2025]
+    DA1 --- DA2[Sparse Time-variant<br/>AAAI 2025]
+    DA2 --- DA3[MoDec-GS<br/>CVPR 2025]
+    DA3 --- DA4[HAIF-GS<br/>NeurIPS 2025]
+    DA4 --- DA5[Anchored 4DGS<br/>SIGGRAPH Asia 2025]
+    DA5 --- DA6[Inst4DGS<br/>arXiv 2026]
+    DA6 --- DA7[Adaptive Anchor<br/>arXiv 2026]
 
     %% Dynamic Canonical Deformable - vertical layout
-    DCanonical --> DC1[Deformable 3DGS<br/>CVPR 2024]
-    DC1 --> DC2[4D Gaussian Splatting<br/>CVPR 2024]
-    DC2 --> DC3[DeformGS<br/>WAFR 2024]
-    DC3 --> DC4[Spacetime Gaussian<br/>CVPR 2024]
-    DC4 --> DC5[Fully Explicit Dynamic<br/>NeurIPS 2024]
-    DC5 --> DC6[HGS<br/>arXiv 2025]
-    DC6 --> DC7[TED-4DGS<br/>WACV 2026]
-    DC7 --> DC8[Learning Explicit CMR<br/>CVPR 2026]
-    DC8 --> DC9[MoRGS<br/>arXiv 2026]
+    DCanonical --- DC1[Deformable 3DGS<br/>CVPR 2024]
+    DC1 --- DC2[4D Gaussian Splatting<br/>CVPR 2024]
+    DC2 --- DC3[DeformGS<br/>WAFR 2024]
+    DC3 --- DC4[Spacetime Gaussian<br/>CVPR 2024]
+    DC4 --- DC5[Fully Explicit Dynamic<br/>NeurIPS 2024]
+    DC5 --- DC6[HGS<br/>arXiv 2025]
+    DC6 --- DC7[TED-4DGS<br/>WACV 2026]
+    DC7 --- DC8[Learning Explicit CMR<br/>CVPR 2026]
+    DC8 --- DC9[MoRGS<br/>arXiv 2026]
 
     %% Dynamic LoD - vertical layout
-    DLoD --> DL1[Scale-GS<br/>arXiv 2025]
-    DL1 --> DL2[4DGCPro<br/>NeurIPS 2025]
-    DL2 --> DL3[SLARM<br/>arXiv 2026]
+    DLoD --- DL1[Scale-GS<br/>arXiv 2025]
+    DL1 --- DL2[4DGCPro<br/>NeurIPS 2025]
+    DL2 --- DL3[SLARM<br/>arXiv 2026]
 
     %% Dynamic MoE
     DMoE --> DM1[MoE-GS<br/>ICLR 2026]
