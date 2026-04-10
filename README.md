@@ -101,7 +101,7 @@ Diagram of recent papers, including those covered in the survey (up to April 10,
 </p>
 
 <p align="center">
-  <img src="./img/Dynamic.svg" alt="Dynamic (4D) Gaussian Splatting Taxonomy" width="100%">
+  <img src="./img/dynamic_papers.svg" alt="Dynamic (4D) Gaussian Splatting Taxonomy" width="100%">
 </p>
 
 ---
