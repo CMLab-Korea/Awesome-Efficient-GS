@@ -305,6 +305,26 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 
   <td align="center">2026</td>
 <td align="center">Significance Score-based</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2511.04283">
+      FastGS: Training 3D Gaussian Splatting in 100 Seconds
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/WACV2026/html/Lee_SafeguardGS_3D_Gaussian_Primitive_Pruning_While_Avoiding_Catastrophic_Scene_Destruction_WACV_2026_paper.html">
+      SafeguardGS: 3D Gaussian Primitive Pruning While Avoiding Catastrophic Scene Destruction
+    </a>
+  </td>
+  <td align="center">WACV</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
 
 </tbody>
 </table>
