@@ -44,7 +44,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📣 News
 
-- 📌 2026.04.06: CVPR 2026 papers updated.
+- 📌 2026.04.10: CVPR 2026 papers updated.
 - 📌 2026.02.03: ICLR 2026 papers updated.
 - 📌 2025-12: Paper released to ArXiv.
 - 🚀 2025-12: Repository initialized.
