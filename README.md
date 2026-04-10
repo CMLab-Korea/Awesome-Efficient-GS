@@ -97,7 +97,7 @@ You can find the preprint of our survey here: https://arxiv.org/abs/2512.07197
 The overview of our survey paper (Our survey includes works available up to February 3, 2026.):
 
 <p align="center">
-  <img src="./img/Static.svg" alt="Static (3D) Gaussian Splatting Taxonomy" width="100%">
+  <img src="./img/static_papers.svg" alt="Static (3D) Gaussian Splatting Taxonomy" width="100%">
 </p>
 
 <p align="center">
