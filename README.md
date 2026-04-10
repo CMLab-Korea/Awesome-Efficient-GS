@@ -89,12 +89,12 @@ Together, we hope to accelerate the development of scalable, compact, and high-p
 
 ---
 
-## 🏆 Survey Paper
+## 🏆 Paper Diagram
 
 You can find the preprint of our survey here: https://arxiv.org/abs/2512.07197
 
 
-The overview of our survey paper (Our survey includes works available up to February 3, 2026.):
+Diagram of recent papers, including those covered in the survey (up to April 10, 2026):
 
 <p align="center">
   <img src="./img/static_papers.svg" alt="Static (3D) Gaussian Splatting Taxonomy" width="100%">
@@ -108,7 +108,7 @@ The overview of our survey paper (Our survey includes works available up to Febr
 
 ## 📄 Paper List
 
-We categorize recent Efficient 3D/4DGS papers by methodology (up to February 3, 2026):  
+We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 2026):  
 
 
 ## 3.STATIC
