@@ -325,6 +325,26 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2026</td>
 <td align="center">Significance Score-based</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2606.15924">
+      TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2605.00408">
+      Beyond Heuristics: Learnable Density Control for 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
 
 </tbody>
 </table>
@@ -671,6 +691,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
     </a>
   </td>
   <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2605.20150">
+      TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization
+    </a>
+  </td>
+  <td align="center">ICML</td>
   <td align="center">2026</td>
 </tr>
 
@@ -1046,6 +1075,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   </td>
   <td align="center">NeurIPS</td>
   <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.14232">
+      S2GS: Streaming Semantic Gaussian Splatting for Online Scene Understanding and Reconstruction
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
 </tr>
 
 
