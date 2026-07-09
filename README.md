@@ -44,6 +44,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📣 News
 
+- 📌 2026.07.09: ICML 2026 papers updated.
 - 📌 2026.04.10: CVPR 2026 papers updated.
 - 📌 2026.02.03: ICLR 2026 papers updated.
 - 📌 2025-12: Paper released to ArXiv.
@@ -886,6 +887,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">arXiv</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2607.00595">
+      GADA: Geometry-Aware Deformable Aggregation for Image-Based Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -961,6 +971,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
     </a>
   </td>
   <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/pdf/2605.20150">
+      Scalable Training of 3D Gaussian Splatting via Out-of-Core Optimization
+    </a>
+  </td>
+  <td align="center">ICML</td>
   <td align="center">2026</td>
 </tr>
 
@@ -1185,6 +1204,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">WACV</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2603.29572">
+      Turbo4DGen: Ultra-Fast Acceleration for 4D Generation
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>
@@ -1406,6 +1434,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
     </a>
   </td>
   <td align="center">arXiv</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2605.08635">
+      Kinematics-Driven Gaussian Shape Deformation for Blurry Monocular Dynamic Scenes
+    </a>
+  </td>
+  <td align="center">ICML</td>
   <td align="center">2026</td>
 </tr>
 
