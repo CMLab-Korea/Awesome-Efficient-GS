@@ -1570,4 +1570,4 @@ robotics.
 
 ## 💫 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/SUCCESS-GS&type=Date)](https://www.star-history.com/#CMLab-Korea/SUCCESS-GS&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/Awesome-Efficient-GS&type=Date)](https://www.star-history.com/#CMLab-Korea/Awesome-Efficient-GS&Date)
