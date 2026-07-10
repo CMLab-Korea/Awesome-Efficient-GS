@@ -346,6 +346,16 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2026</td>
 <td align="center">Significance Score-based</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://openreview.net/attachment?id=ETnzn3onnZ&name=originally_submitted_PDF">
+      CoverPruneGS: Coverage-Preserving Structured Pruning for Compact 3D Gaussian Splatting from Sparse-View Monocular Videos
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+<td align="center">Gradient-based</td>
+</tr>
 
 </tbody>
 </table>
