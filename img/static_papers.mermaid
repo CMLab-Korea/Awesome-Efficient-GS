@@ -78,7 +78,7 @@ graph TB
     RC --> Anchor[3.2.1 Anchor-based<br/>10 papers]
     RC --> Neural[3.2.2 Neural Network<br/>7 papers]
     RC --> Geometric[3.2.3 Geometric Structure<br/>7 papers]
-    RC --> Pipeline[3.2.4 Pipeline Optimization<br/>3 papers]
+    RC --> Pipeline[3.2.4 Pipeline Optimization<br/>4 papers]
 
     %% Anchor-based papers - vertical layout
     Anchor --- A1[Scaffold-GS<br/>CVPR 2024]
@@ -114,6 +114,7 @@ graph TB
     Pipeline --- PO1[FlashGS<br/>CVPR 2025]
     PO1 --- PO2[Faster-GS<br/>CVPR 2026]
     PO2 --- PO3[ShorterSplatting<br/>CVPR 2026]
+    PO3 --- PO4[3DGS²-TR<br/>ICML 2026]
 
     %% Styling
     classDef rootClass fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
@@ -129,7 +130,7 @@ graph TB
     class E1,E2,E3,E4,S1,S2,S3,S4,S5,S6,S7,S8,S9,S10,S11,S12,S13,S14 paperClass
     class A1,A2,A3,A4,A5,A6,A7,A8,A9,A10 paperClass
     class N1,N2,N3,N4,N5,N6,N7,G1,G2,G3,G4,G5,G6,G7 paperClass
-    class PO1,PO2,PO3 paperClass
+    class PO1,PO2,PO3,PO4 paperClass
 
     %% Link styling for dark mode visibility
     linkStyle default stroke:#666,stroke-width:2px

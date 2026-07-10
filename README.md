@@ -1034,6 +1034,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://arxiv.org/abs/2602.00395">
+      3DGS²-TR: Scalable Second-Order Trust-Region Method for 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICML</td>
+  <td align="center">2026</td>
+</tr>
 
 </tbody>
 </table>

@@ -6,10 +6,10 @@ graph TB
     Dynamic --> DRC[4.2 Restructuring Compression]
 
     %% Dynamic Parameter Compression Subcategories
-    DPC --> DPruning[4.1.1 Gaussian Pruning<br/>6 papers]
+    DPC --> DPruning[4.1.1 Gaussian Pruning<br/>7 papers]
     DPC --> DAttrPruning[4.1.2 Attribute Pruning<br/>1 paper]
     DPC --> DQuant[4.1.3 Quantization<br/>1 paper]
-    DPC --> DEntropy[4.1.4 Entropy-based<br/>4 papers]
+    DPC --> DEntropy[4.1.4 Entropy-based<br/>5 papers]
 
     %% Dynamic Gaussian Pruning - vertical layout
     DPruning --- DP1[Temporally Compressed<br/>BMVC 2025]
@@ -18,6 +18,7 @@ graph TB
     DP3 --- DP4[Fully Explicit Dynamic<br/>NeurIPS 2024]
     DP4 --- DP5[3DGStream<br/>CVPR 2024]
     DP5 --- DP6[Instant4D<br/>NeurIPS 2025]
+    DP6 --- DP7[S2GS<br/>ICML 2026]
 
     %% Dynamic Attribute Pruning
     DAttrPruning --- DAP1[Hybrid 3D-4D<br/>arXiv 2025]
@@ -30,11 +31,12 @@ graph TB
     DE1 --- DE2[MEGA<br/>ICCV 2025]
     DE2 --- DE3[Real-time 4DGS<br/>ICLR 2024]
     DE3 --- DE4[TED-4DGS<br/>WACV 2026]
+    DE4 --- DE5[Turbo4DGen<br/>ICML 2026]
 
     %% Dynamic Restructuring Compression Subcategories
     DRC --> DAnchor[4.2.1 Anchor-based<br/>7 papers]
     DRC --> DCanonical[4.2.2 Canonical Deformable<br/>9 papers]
-    DRC --> DLoD[4.2.3 LoD Representation<br/>3 papers]
+    DRC --> DLoD[4.2.3 LoD Representation<br/>4 papers]
     DRC --> DMoE[4.2.4 Mixture-of-Experts<br/>1 paper]
 
     %% Dynamic Anchor-based - vertical layout
@@ -61,6 +63,7 @@ graph TB
     DLoD --- DL1[Scale-GS<br/>arXiv 2025]
     DL1 --- DL2[4DGCPro<br/>NeurIPS 2025]
     DL2 --- DL3[SLARM<br/>arXiv 2026]
+    DL3 --- DL4[Kinematics-Driven<br/>ICML 2026]
 
     %% Dynamic MoE
     DMoE --- DM1[MoE-GS<br/>ICLR 2026]
@@ -74,11 +77,11 @@ graph TB
     class Dynamic rootClass
     class DPC,DRC categoryClass
     class DPruning,DAttrPruning,DQuant,DEntropy,DAnchor,DCanonical,DLoD,DMoE subcategoryClass
-    class DP1,DP2,DP3,DP4,DP5,DP6,DAP1,DQ1 paperClass
-    class DE1,DE2,DE3,DE4 paperClass
+    class DP1,DP2,DP3,DP4,DP5,DP6,DP7,DAP1,DQ1 paperClass
+    class DE1,DE2,DE3,DE4,DE5 paperClass
     class DA1,DA2,DA3,DA4,DA5,DA6,DA7 paperClass
     class DC1,DC2,DC3,DC4,DC5,DC6,DC7,DC8,DC9 paperClass
-    class DL1,DL2,DL3,DM1 paperClass
+    class DL1,DL2,DL3,DL4,DM1 paperClass
 
     %% Link styling for dark mode visibility
     linkStyle default stroke:#666,stroke-width:2px
