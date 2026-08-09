@@ -854,6 +854,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/abs/2606.03877">
+      MLP Splatting: Object-Centric Neural Fields
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://dl.acm.org/doi/10.1145/3746027.3755432">
       3D Gaussian Splatting Data Compression with Mixture of Priors
     </a>
