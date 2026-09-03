@@ -1579,4 +1579,12 @@ robotics.
 
 ## 💫 Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=CMLab-Korea/SUCCESS-GS&type=Date)](https://www.star-history.com/#CMLab-Korea/SUCCESS-GS&Date)
+## Star History
+
+<a href="https://www.star-history.com/?repos=CMLab-Korea%2FSUCCESS-GS&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=CMLab-Korea/SUCCESS-GS&type=date&theme=dark&legend=top-left&sealed_token=drVMg47m1spuAvCspS5CpSEHtiIcITFc6b9871-Mvi-cZBNPIEWfOaolGldrwqTU7nb_N37WtAhOryA0C-syUJRFOJTLhRAvl9GsN3TkMw1tktiEzg1auQ" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=CMLab-Korea/SUCCESS-GS&type=date&legend=top-left&sealed_token=drVMg47m1spuAvCspS5CpSEHtiIcITFc6b9871-Mvi-cZBNPIEWfOaolGldrwqTU7nb_N37WtAhOryA0C-syUJRFOJTLhRAvl9GsN3TkMw1tktiEzg1auQ" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=CMLab-Korea/SUCCESS-GS&type=date&legend=top-left&sealed_token=drVMg47m1spuAvCspS5CpSEHtiIcITFc6b9871-Mvi-cZBNPIEWfOaolGldrwqTU7nb_N37WtAhOryA0C-syUJRFOJTLhRAvl9GsN3TkMw1tktiEzg1auQ" />
+ </picture>
+</a>
