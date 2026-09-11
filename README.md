@@ -44,7 +44,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📣 News
 
-- 📌 2026.09.11: AAAI 2026, CVPR 2026, ECCV 2026, ICLR 2026, and ICML 2026 papers updated.
+- 📌 2026.09.11: AAAI 2026 and ECCV 2026 papers updated.
 - 📌 2026.07.09: ICML 2026 papers updated.
 - 📌 2026.04.10: CVPR 2026 papers updated.
 - 📌 2026.02.03: ICLR 2026 papers updated.
