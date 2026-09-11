@@ -44,6 +44,7 @@ This repository provides a curated collection of papers, benchmarks, and resourc
 
 ## 📣 News
 
+- 📌 2026.09.11: AAAI 2026, CVPR 2026, ECCV 2026, ICLR 2026, and ICML 2026 papers updated.
 - 📌 2026.07.09: ICML 2026 papers updated.
 - 📌 2026.04.10: CVPR 2026 papers updated.
 - 📌 2026.02.03: ICLR 2026 papers updated.
@@ -82,7 +83,7 @@ If you have a new method, dataset, benchmark, or related resource relevant to Ef
   - “5. Evaluation – Datasets and Benchmarks”
 
 Our maintainers will review submissions and merge them when appropriate.
-We aim for this repository to become a collaborative hub for the Efficient Gaussian Splatting community—covering topics such as:
+We aim for this repository to become a collaborative hub for the Efficient Gaussian Splatting community, covering topics such as:
 - **Parameter Compression**
 - **Restructuring Compression** 
 
@@ -129,7 +130,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://doi.org/10.1109/CVPR52733.2024.02052">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Lee_Compact_3D_Gaussian_Representation_for_Radiance_Field_CVPR_2024_paper.html">
       Compact 3D Gaussian Representation for Radiance Field
     </a>
   </td>
@@ -169,7 +170,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2503.16924">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/c6048c68a5e34a2bb34f9ad27e0f338b-Abstract-Conference.html">
       Optimized Minimal 3D Gaussian Splatting
     </a>
   </td>
@@ -179,16 +180,17 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/11092397/">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Hanson_PUP_3D-GS_Principled_Uncertainty_Pruning_for_3D_Gaussian_Splatting_CVPR_2025_paper.html">
       Pup 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
   <td align="center">2025</td>
 <td align="center">Gradient-based</td>
+</tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/11094159">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Hanson_Speedy-Splat_Fast_3D_Gaussian_Splatting_with_Sparse_Pixels_and_Sparse_CVPR_2025_paper.html">
       Speedy-Splat: Fast 3D Gaussian Splatting with Sparse Pixels and Sparse Primitives
     </a>
   </td>
@@ -208,7 +210,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10943631">
+    <a href="https://openaccess.thecvf.com/content/WACV2025/html/Ali_ELMGS_Enhancing_Memory_and_Computation_Scalability_through_Compression_for_3D_WACV_2025_paper.html">
       Elmgs: Enhancing Memory and Computation Scalability through Compression for 3D Gaussian Splatting
     </a>
   </td>
@@ -218,7 +220,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=vRegY0pgvQ">
+    <a href="https://iclr.cc/virtual/2026/poster/10006810">
       Mobile-GS: Real-time Gaussian Splatting for Mobile Devices
     </a>
   </td>
@@ -228,7 +230,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+    <a href="https://iclr.cc/virtual/2026/poster/10010067">
       UrbanGS: Efficient and Scalable Architecture for Geometrically Accurate Large-scene Reconstruction
     </a>
   </td>
@@ -238,7 +240,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=e97PUwaiIi">
+    <a href="https://iclr.cc/virtual/2026/poster/10008347">
       MEGS^{2}: Memory-efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
     </a>
   </td>
@@ -258,7 +260,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/pdf/2412.20522">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Liu_MaskGaussian_Adaptive_3D_Gaussian_Representation_from_Probabilistic_Masks_CVPR_2025_paper.html">
       MaskGaussian: Adaptive 3D Gaussian Representation from Probabilistic Masks
     </a>
   </td>
@@ -298,7 +300,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2602.19753">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Yang_RAP_Fast_Feedforward_Rendering-Free_Attribute-Guided_Primitive_Importance_Score_Prediction_for_CVPR_2026_paper.html">
       RAP: Fast Feedforward Rendering-Free Attribute-Guided Primitive Importance Score Prediction for Efficient 3D Gaussian Splatting Processing
     </a>
   </td>
@@ -308,7 +310,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2511.04283">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Ren_FastGS_Training_3D_Gaussian_Splatting_in_100_Seconds_CVPR_2026_paper.html">
       FastGS: Training 3D Gaussian Splatting in 100 Seconds
     </a>
   </td>
@@ -328,7 +330,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2606.15924">
+    <a href="https://icml.cc/virtual/2026/poster/62260">
       TurboGS: Accelerating 3D Gaussian Splatting via Error-Guided Sparse Pixel Sampling and Optimization
     </a>
   </td>
@@ -338,7 +340,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2605.00408">
+    <a href="https://icml.cc/virtual/2026/poster/64863">
       Beyond Heuristics: Learnable Density Control for 3D Gaussian Splatting
     </a>
   </td>
@@ -348,8 +350,8 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/attachment?id=ETnzn3onnZ&name=originally_submitted_PDF">
-      CoverPruneGS: Coverage-Preserving Structured Pruning for Compact 3D Gaussian Splatting from Sparse-View Monocular Videos
+    <a href="https://icml.cc/virtual/2026/poster/65348">
+      CoverPruneGS: Coverage-Preserving Structured Pruning for Hierarchical 3D Gaussian Splatting from Sparse-View Monocular Videos
     </a>
   </td>
   <td align="center">ICML</td>
@@ -357,6 +359,106 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <td align="center">Gradient-based</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/4526">
+      EAGS: Error-Aware Gaussian Splatting with Dual-Confidence-Guided Modeling for Uncalibrated Driving Scenes
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3772">
+      Fast and Compact 3D Gaussian Splatting with Polarized Opacity Prior
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Learnable mask-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3858">
+      REFINE: Super-efficient Pruning for 3D Gaussian Splatting via Rendering-Free Primitive Importance
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/4067">
+      Manifold-Aware Spectral Compaction: A Graph Signal Processing Perspective on Online Gaussian Reduction for 3DGS SLAM
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Spectral-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3359">
+      NanoGS: Training-Free and Lightweight Gaussian Splat Simplification
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3962">
+      PointSplat: Compact Gaussian Splatting via Human-Centric Prediction
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Semantic mask-guided</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Yang_GS2_Graph-based_Spatial_Distribution_Optimization_for_Compact_3D_Gaussian_Splatting_CVPR_2026_paper.html">
+      GS^2: Graph-based Spatial Distribution Optimization for Compact 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_SparseSplat_Towards_Applicable_Feed-Forward_3D_Gaussian_Splatting_with_Pixel-Unaligned_Prediction_CVPR_2026_paper.html">
+      SparseSplat: Towards Applicable Feed-Forward 3D Gaussian Splatting with Pixel-Unaligned Prediction
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Bui_EcoSplat_Efficiency-controllable_Feed-forward_3D_Gaussian_Splatting_from_Multi-view_Images_CVPR_2026_paper.html">
+      EcoSplat: Efficiency-controllable Feed-forward 3D Gaussian Splatting from Multi-view Images
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+<td align="center">Significance Score-based</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10011348">
+      Gradient-Direction-Aware Density Control for 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+<td align="center">Gradient-based</td>
+</tr>
 </tbody>
 </table>
 
@@ -392,7 +494,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=e97PUwaiIi">
+    <a href="https://iclr.cc/virtual/2026/poster/10008347">
       MEGS^{2}: Memory-efficient Gaussian Splatting via Spherical Gaussians and Unified Pruning
     </a>
   </td>
@@ -401,7 +503,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.29185">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Tao_Hierarchical_Visual_Relocalization_with_Nearest_View_Synthesis_from_Feature_Gaussian_CVPR_2026_paper.html">
       Hierarchical Visual Relocalization with Nearest View Synthesis from Feature Gaussian Splatting
     </a>
   </td>
@@ -410,11 +512,29 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2602.20933">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Fang_Dropping_Anchor_and_Spherical_Harmonics_for_Sparse-view_Gaussian_Splatting_CVPR_2026_paper.html">
       Dropping Anchor and Spherical Harmonics for Sparse-view Gaussian Splatting
     </a>
   </td>
   <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/5695">
+      EGGS: Explicitly Granular 3D Gaussian Splatting via Luma-Aware and Volume-Preserving Attribute Factorization
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/5168">
+      FLEG: Feed-Forward Language Embedded Gaussian Splatting from Any Views via Compact Semantic Representation
+    </a>
+  </td>
+  <td align="center">ECCV</td>
   <td align="center">2026</td>
 </tr>
 </tbody>
@@ -434,7 +554,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10655416">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Niedermayr_Compressed_3D_Gaussian_Splatting_for_Accelerated_Novel_View_Synthesis_CVPR_2024_paper.html">
       Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
     </a>
   </td>
@@ -443,7 +563,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://doi.org/10.1109/CVPR52733.2024.02052">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Lee_Compact_3D_Gaussian_Representation_for_Radiance_Field_CVPR_2024_paper.html">
       Compact 3D Gaussian Representation for Radiance Field
     </a>
   </td>
@@ -497,7 +617,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=vRegY0pgvQ">
+    <a href="https://iclr.cc/virtual/2026/poster/10006810">
       Mobile-GS: Real-time Gaussian Splatting for Mobile Devices
     </a>
   </td>
@@ -506,7 +626,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.24146">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Bang_LightSplat_Fast_and_Memory-Efficient_Open-Vocabulary_3D_Scene_Understanding_in_Five_CVPR_2026_paper.html">
       LightSplat: Fast and Memory-Efficient Open-Vocabulary 3D Scene Understanding in Five Seconds
     </a>
   </td>
@@ -530,7 +650,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10655416">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Niedermayr_Compressed_3D_Gaussian_Splatting_for_Accelerated_Novel_View_Synthesis_CVPR_2024_paper.html">
       Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis
     </a>
   </td>
@@ -557,12 +677,21 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2410.08017">
+    <a href="https://iclr.cc/virtual/2025/poster/30473">
       Fast Feedforward 3D Gaussian Splatting Compression
     </a>
   </td>
   <td align="center">ICLR</td>
   <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i4.37222">
+      Plug-and-Play Optimization for 3D Gaussian Splatting Compression: Distribution Regularization, Probabilistic Pruning and Detail Compensation
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
 </tr>
 </tbody>
 </table>
@@ -586,15 +715,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   </td>
   <td align="center">ECCV</td>
   <td align="center">2024</td>
-</tr>
-<tr>
-  <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10993308">
-      Octree-GS: Towards Consistent Real-time Rendering with Lod-structured 3D Gaussians
-    </a>
-  </td>
-  <td align="center">TPAMI</td>
-  <td align="center">2025</td>
 </tr>
 <tr>
   <td align="left">
@@ -625,15 +745,6 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2501.13558">
-      GoDe: Gaussians on Demand for Progressive Level of Detail and Scalable Compression
-    </a>
-  </td>
-  <td align="center">arXiv</td>
-  <td align="center">2025</td>
-</tr>
-<tr>
-  <td align="left">
     <a href="https://arxiv.org/abs/2506.00271">
       Adaptive Voxelization for Transform Coding of 3D Gaussian Splatting Data
     </a>
@@ -643,7 +754,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2506.09534">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/e79574cc3355e831cc276c845605ed72-Abstract-Conference.html">
       Gaussian Herding Across Pens: An Optimal Transport Perspective on Global Gaussian Reduction for 3DGS
     </a>
   </td>
@@ -661,7 +772,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+    <a href="https://iclr.cc/virtual/2026/poster/10010067">
       UrbanGS: Efficient and Scalable Architecture for Geometrically Accurate Large-scene Reconstruction
     </a>
   </td>
@@ -688,7 +799,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=L3utaw6SD9">
+    <a href="https://arxiv.org/abs/2603.18707">
       From ex(p) to poly: Gaussian Splatting with Polynomial Kernels
     </a>
   </td>
@@ -697,7 +808,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.07789">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_SGI_Structured_2D_Gaussians_for_Efficient_and_Compact_Large_Image_CVPR_2026_paper.html">
       SGI: Structured 2D Gaussians for Efficient and Compact Large Image Representation
     </a>
   </td>
@@ -706,7 +817,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2605.20150">
+    <a href="https://icml.cc/virtual/2026/poster/64763">
       TideGS: Scalable Training of Over One Billion 3D Gaussian Splatting Primitives via Out-of-Core Optimization
     </a>
   </td>
@@ -714,6 +825,24 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2026</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/4959">
+      KISS-GS: 3D Gaussian Splatting Compression Kept Simple
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i6.42504">
+      LongSplat: Online Generalizable 3D Gaussian Splatting from Long Sequence Images
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -732,7 +861,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10658518">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Lu_Scaffold-GS_Structured_3D_Gaussians_for_View-Adaptive_Rendering_CVPR_2024_paper.html">
       Scaffold-GS: Structured 3D Gaussians for View-adaptive Rendering
     </a>
   </td>
@@ -777,7 +906,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2503.00357">
+    <a href="https://iclr.cc/virtual/2025/poster/28486">
       CAT-3DGS: A Context-adaptive Triplane Approach to Rate-distortion-optimized 3DGS Compression
     </a>
   </td>
@@ -786,7 +915,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2503.08511">
+    <a href="https://doi.org/10.1609/aaai.v40i4.37304">
       PCGS: Progressive Compression of 3D Gaussian Splatting
     </a>
   </td>
@@ -820,6 +949,33 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">arXiv</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_AnchorSplat_Feed-Forward_3D_Gaussian_Splatting_With_3D_Geometric_Priors_CVPR_2026_paper.html">
+      AnchorSplat: Feed-Forward 3D Gaussian Splatting With 3D Geometric Priors
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Jeong_3D_Gaussian_Splatting_at_Arbitrary_Resolutions_with_Compact_Proxy_Anchors_CVPR_2026_paper.html">
+      3D Gaussian Splatting at Arbitrary Resolutions with Compact Proxy Anchors
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Urban-GS_A_Unified_3D_Gaussian_Splatting_Framework_for_Compact_and_CVPR_2026_paper.html">
+      Urban-GS: A Unified 3D Gaussian Splatting Framework for Compact and High-Fidelity Aerial-to-Street Reconstruction
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -845,7 +1001,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2503.23162">
+    <a href="https://doi.org/10.1609/aaai.v40i11.37910">
       NeuralGS: Bridging Neural Fields and 3D Gaussian Splatting for Compact 3D Representations
     </a>
   </td>
@@ -854,7 +1010,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2606.03877">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/5496">
       MLP Splatting: Object-Centric Neural Fields
     </a>
   </td>
@@ -872,7 +1028,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=EPN5MU4liR">
+    <a href="https://iclr.cc/virtual/2026/poster/10010683">
       A^2TG: Adaptive Anisotropic Textured Gaussians for Efficient 3D Scene Representation
     </a>
   </td>
@@ -908,11 +1064,38 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2607.00595">
+    <a href="https://icml.cc/virtual/2026/poster/61447">
       GADA: Geometry-Aware Deformable Aggregation for Image-Based Gaussian Splatting
     </a>
   </td>
   <td align="center">ICML</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3147">
+      ReSplat: Learning Recurrent Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Wang_Z-Order_Transformer_for_Feed-Forward_Gaussian_Splatting_CVPR_2026_paper.html">
+      Z-Order Transformer for Feed-Forward Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Watanabe_Neural_Gabor_Splatting_Enhanced_Gaussian_Splatting_with_Neural_Gabor_for_CVPR_2026_paper.html">
+      Neural Gabor Splatting: Enhanced Gaussian Splatting with Neural Gabor for High-frequency Surface Reconstruction
+    </a>
+  </td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
 </tbody>
@@ -940,7 +1123,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   
 <tr>
   <td align="left">
-    <a href="https://link.springer.com/chapter/10.1007/978-3-031-72655-2_13">
+    <a href="https://link.springer.com/chapter/10.1007/978-3-031-72980-5_10">
       Mini-splatting: Representing Scenes with a Constrained Number of Gaussians
     </a>
   </td>
@@ -949,7 +1132,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2406.02720">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Li_3D-HGS_3D_Half-Gaussian_Splatting_CVPR_2025_paper.html">
       3D-HGS: 3D Half-Gaussian Splatting
     </a>
   </td>
@@ -958,7 +1141,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=IzlaRUHncO">
+    <a href="https://iclr.cc/virtual/2026/poster/10010242">
       Augmented Radiance Field: A General Framework for Enhanced Gaussian Splatting
     </a>
   </td>
@@ -992,42 +1175,95 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">arXiv</td>
   <td align="center">2026</td>
 </tr>
+
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/pdf/2605.20150">
-      Scalable Training of 3D Gaussian Splatting via Out-of-Core Optimization
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Qian_TGSFormer_Scalable_Temporal_Gaussian_Splatting_for_Embodied_Semantic_Scene_Completion_CVPR_2026_paper.html">
+      TGSFormer: Scalable Temporal Gaussian Splatting for Embodied Semantic Scene Completion
     </a>
   </td>
-  <td align="center">ICML</td>
+  <td align="center">CVPR</td>
   <td align="center">2026</td>
 </tr>
-
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10009515">
+      Less Gaussians, Texture More: 4K Feed-Forward Textured Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
-### 3.2.4. Pipeline Optimization
+### 3.2.4. LoD Representation
+
 <table>
 <thead>
 <tr>
 <th align="left">Title</th>
 <th align="center">Publication</th>
 <th align="center">Date</th>
-
+<th align="center">Tags</th>
 </tr>
 </thead>
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2408.07967">
-      FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering
+    <a href="https://ieeexplore.ieee.org/document/10993308">
+      Octree-GS: Towards Consistent Real-time Rendering with Lod-structured 3D Gaussians
     </a>
   </td>
-  <td align="center">CVPR</td>
+  <td align="center">TPAMI</td>
   <td align="center">2025</td>
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2602.09999">
+    <a href="https://arxiv.org/abs/2501.13558">
+      GoDe: Gaussians on Demand for Progressive Level of Detail and Scalable Compression
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10006433">
+      CLoD-GS: Continuous Level-of-Detail via 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Pan_Learning_Differentiable_Hierarchies_in_3D_Gaussian_Splatting_CVPR_2026_paper.html">
+      Learning Differentiable Hierarchies in 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+</tbody>
+</table>
+
+## 3.3. Pipeline Optimization
+### 3.3.1. Training Acceleration
+
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+<th align="center">Tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Hahlbohm_Faster-GS_Analyzing_and_Improving_Gaussian_Splatting_Optimization_CVPR_2026_paper.html">
       Faster-GS: Analyzing and Improving Gaussian Splatting Optimization
     </a>
   </td>
@@ -1036,7 +1272,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.09277">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liu_Speeding_Up_the_Learning_of_3D_Gaussians_with_Much_Shorter_CVPR_2026_paper.html">
       Speeding Up the Learning of 3D Gaussians with Much Shorter Gaussian Lists
     </a>
   </td>
@@ -1045,14 +1281,160 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2602.00395">
+    <a href="https://icml.cc/virtual/2026/poster/64716">
       3DGS²-TR: Scalable Second-Order Trust-Region Method for 3D Gaussian Splatting
     </a>
   </td>
   <td align="center">ICML</td>
   <td align="center">2026</td>
 </tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kotovenko_EDGS_Eliminating_Densification_for_Efficient_Convergence_of_3DGS_CVPR_2026_paper.html">
+      EDGS: Eliminating Densification for Efficient Convergence of 3DGS
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10010766">
+      Signal Structure-Aware Gaussian Splatting for Large-Scale Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10007396">
+      A Step to Decouple Optimization in 3DGS
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i14.38115">
+      MuSASplat: Efficient Sparse-View 3D Gaussian Splats via Lightweight Multi-Scale Adaptation
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+</tr>
+</tbody>
+</table>
 
+### 3.3.2. Rendering Acceleration
+
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+<th align="center">Tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Feng_FlashGS_Efficient_3D_Gaussian_Splatting_for_Large-scale_and_High-resolution_Rendering_CVPR_2025_paper.html">
+      FlashGS: Efficient 3D Gaussian Splatting for Large-scale and High-resolution Rendering
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2025</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_CaT-GS_Efficient_3DGS_Rendering_for_Large-Scale_Scenes_with_Inter-frame_Caching_CVPR_2026_paper.html">
+      CaT-GS: Efficient 3DGS Rendering for Large-Scale Scenes with Inter-frame Caching and Tile Scheduling
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Gao_Proxy-GS_Unified_Occlusion_Priors_for_Training_and_Inference_in_Structured_CVPR_2026_paper.html">
+      Proxy-GS: Unified Occlusion Priors for Training and Inference in Structured 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhu_Seele_A_Unified_Acceleration_Framework_for_Real-Time_Gaussian_Splatting_on_CVPR_2026_paper.html">
+      Seele: A Unified Acceleration Framework for Real-Time Gaussian Splatting on Mobile Devices
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zoomers_NVGS_Neural_Visibility_for_Occlusion_Culling_in_3D_Gaussian_Splatting_CVPR_2026_paper.html">
+      NVGS: Neural Visibility for Occlusion Culling in 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Stochastic_Ray_Tracing_for_the_Reconstruction_of_3D_Gaussian_Splatting_CVPR_2026_paper.html">
+      Stochastic Ray Tracing for the Reconstruction of 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+</tbody>
+</table>
+
+### 3.3.3. Feed-Forward Prediction
+
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="center">Publication</th>
+<th align="center">Date</th>
+<th align="center">Tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/4274">
+      SubSplat: High-Resolution Pixel-aligned 3DGS via Sub-pixel Gaussian Reparameterization
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Kong_GaussianPile_A_Unified_Sparse_Gaussian_Splatting_Framework_for_Slice-based_Volumetric_CVPR_2026_paper.html">
+      GaussianPile: A Unified Sparse Gaussian Splatting Framework for Slice-based Volumetric Reconstruction
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Moreau_Off_The_Grid_Detection_of_Primitives_for_Feed-Forward_3D_Gaussian_CVPR_2026_paper.html">
+      Off The Grid: Detection of Primitives for Feed-Forward 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1080,7 +1462,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2506.07917">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Tu_SpeeDe3DGS_Speedy_Deformable_3D_Gaussian_Splatting_with_Temporal_Pruning_and_CVPR_2026_paper.html">
       SpeeDe3DGS: Speedy Deformable 3D Gaussian Splatting with Temporal Pruning and Motion Grouping
     </a>
   </td>
@@ -1089,7 +1471,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2503.16422">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/6c39d1a7eecfd98570d74bf7efec1be7-Abstract-Conference.html">
       1000+ FPS 4D Gaussian Splatting for Dynamic Scene Rendering
     </a>
   </td>
@@ -1107,7 +1489,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10655553">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Sun_3DGStream_On-the-Fly_Training_of_3D_Gaussians_for_Efficient_Streaming_of_CVPR_2024_paper.html">
       3DGStream: On-the-fly Training of 3D Gaussians for Efficient Streaming of Photo-realistic Free-viewpoint Videos
     </a>
   </td>
@@ -1116,7 +1498,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2510.01119">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/2b0e14abd8128e6bf98b6b0bec1cfcbf-Abstract-Conference.html">
       Instant4D: 4D Gaussian Splatting in Minutes
     </a>
   </td>
@@ -1125,7 +1507,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.14232">
+    <a href="https://icml.cc/virtual/2026/poster/65536">
       S2GS: Streaming Semantic Gaussian Splatting for Online Scene Understanding and Reconstruction
     </a>
   </td>
@@ -1134,6 +1516,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 
 
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3218">
+      Multi4D: High-Fidelity Dynamic Gaussian Splatting via Multi-Level Competitive Allocation
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1182,6 +1573,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2025</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Xu_Layered_4D-Rotor_Gaussian_Splatting_A_Compressed_Representation_for_Long_Dynamic_CVPR_2026_paper.html">
+      Layered 4D-Rotor Gaussian Splatting: A Compressed Representation for Long Dynamic Scenes
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1198,7 +1598,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10658408">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Jiang_HiFi4G_High-Fidelity_Human_Performance_Rendering_via_Compact_Gaussian_Splatting_CVPR_2024_paper.html">
       HiFi4G: High-fidelity Human Performance Rendering via Compact Gaussian Splatting
     </a>
   </td>
@@ -1207,7 +1607,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2410.13613">
+    <a href="https://openaccess.thecvf.com/content/ICCV2025/html/Zhang_MEGA_Memory-Efficient_4D_Gaussian_Splatting_for_Dynamic_Scenes_ICCV_2025_paper.html">
       MEGA: Memory-efficient 4D Gaussian Splatting for Dynamic Scenes
     </a>
   </td>
@@ -1216,7 +1616,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/pdf/2310.10642">
+    <a href="https://iclr.cc/virtual/2024/poster/18466">
       Real-time Photorealistic Dynamic Scene Representation and Rendering with 4D Gaussian Splatting
     </a>
   </td>
@@ -1225,7 +1625,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/pdf/2512.05446">
+    <a href="https://openaccess.thecvf.com/content/WACV2026/html/Ho_TED-4DGS_Temporally_Activated_and_Embedding-based_Deformation_for_4DGS_Compression_WACV_2026_paper.html">
       TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
     </a>
   </td>
@@ -1234,7 +1634,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.29572">
+    <a href="https://icml.cc/virtual/2026/poster/62276">
       Turbo4DGen: Ultra-Fast Acceleration for 4D Generation
     </a>
   </td>
@@ -1242,6 +1642,15 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2026</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i19.38674">
+      D-FCGS: Feedforward Compression of Dynamic Gaussian Splatting for Free-Viewpoint Videos
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1258,7 +1667,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/11094310">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Lei_MoSca_Dynamic_Gaussian_Fusion_from_Casual_Videos_via_4D_Motion_CVPR_2025_paper.html">
       MoSca: Dynamic Gaussian Fusion from Casual Videos via 4D Motion Scaffolds
     </a>
   </td>
@@ -1276,7 +1685,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/11093901">
+    <a href="https://openaccess.thecvf.com/content/CVPR2025/html/Kwak_MoDec-GS_Global-to-Local_Motion_Decomposition_and_Temporal_Interval_Adjustment_for_Compact_CVPR_2025_paper.html">
       MoDec-GS: Global-to-local Motion Decomposition and Temporal Interval Adjustment for Compact Dynamic 3D Gaussian Splatting
     </a>
   </td>
@@ -1285,7 +1694,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2506.09518">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/b690b88de1cd9694e356b021bc643ba1-Abstract-Conference.html">
       HAIF-GS: Hierarchical and Induced Flow-guided Gaussian Splatting for Dynamic Scene
     </a>
   </td>
@@ -1320,6 +1729,42 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2026</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Liang_ClipGStream_Clip-Stream_Gaussian_Splatting_for_Any_Length_and_Any_Motion_CVPR_2026_paper.html">
+      ClipGStream: Clip-Stream Gaussian Splatting for Any Length and Any Motion Multi-View Dynamic Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">CVPR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://iclr.cc/virtual/2026/poster/10008123">
+      From Tokens to Nodes: Semantic-Guided Motion Control for Dynamic 3D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ICLR</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i6.42419">
+      HDGS: Hierarchical Dynamic Gaussian Splatting for Urban Driving Scenes
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+</tr>
+<tr>
+  <td align="left">
+    <a href="https://doi.org/10.1609/aaai.v40i5.37332">
+      4D Scaffold Gaussian Splatting with Dynamic-Aware Anchor Growing for Efficient and High-Fidelity Dynamic Scene Reconstruction
+    </a>
+  </td>
+  <td align="center">AAAI</td>
+  <td align="center">2026</td>
+</tr>
 </tbody>
 </table>
 
@@ -1336,7 +1781,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10657752">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Deformable_3D_Gaussians_for_High-Fidelity_Monocular_Dynamic_Scene_Reconstruction_CVPR_2024_paper.html">
       Deformable 3D Gaussians for High-fidelity Monocular Dynamic Scene Reconstruction
     </a>
   </td>
@@ -1346,7 +1791,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/106567740">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Wu_4D_Gaussian_Splatting_for_Real-Time_Dynamic_Scene_Rendering_CVPR_2024_paper.html">
       4D Gaussian Splatting for Real-time Dynamic Scene Rendering
     </a>
   </td>
@@ -1366,7 +1811,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://ieeexplore.ieee.org/document/10657623">
+    <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Li_Spacetime_Gaussian_Feature_Splatting_for_Real-Time_Dynamic_View_Synthesis_CVPR_2024_paper.html">
       Spacetime Gaussian Feature Splatting for Real-time Dynamic View Synthesis
     </a>
   </td>
@@ -1374,6 +1819,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">2024</td>
   <td align="center">Explicit Deformation</td>
 </tr>
+<tr>
   <td align="left">
     <a href="https://proceedings.neurips.cc/paper_files/paper/2024/file/09b47a77997b7dd7d2b26bd8ff769392-Paper-Conference.pdf">
       Fully Explicit Dynamic Gaussian Splatting
@@ -1395,7 +1841,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/pdf/2512.05446">
+    <a href="https://openaccess.thecvf.com/content/WACV2026/html/Ho_TED-4DGS_Temporally_Activated_and_Embedding-based_Deformation_for_4DGS_Compression_WACV_2026_paper.html">
       TED-4DGS: Temporally Activated and Embedding-based Deformation for 4DGS Compression
     </a>
   </td>
@@ -1405,7 +1851,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.25058">
+    <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Zhang_Learning_Explicit_Continuous_Motion_Representation_for_Dynamic_Gaussian_Splatting_from_CVPR_2026_paper.html">
       Learning Explicit Continuous Motion Representation for Dynamic Gaussian Splatting from Monocular Videos
     </a>
   </td>
@@ -1424,6 +1870,16 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
   <td align="center">Explicit Deformation</td>
 </tr>
 
+<tr>
+  <td align="left">
+    <a href="https://eccv.ecva.net/virtual/2026/poster/5074">
+      TRiGS: Temporal Rigid-Body Motion for Scalable 4D Gaussian Splatting
+    </a>
+  </td>
+  <td align="center">ECCV</td>
+  <td align="center">2026</td>
+<td align="center">Explicit Deformation</td>
+</tr>
 </tbody>
 </table>
 
@@ -1448,7 +1904,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2509.17513">
+    <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/923285deb805c3e14e1aeebc9854d644-Abstract-Conference.html">
       4DGCPro: Efficient Hierarchical 4D Gaussian Compression for Progressive Volumetric Video Streaming
     </a>
   </td>
@@ -1466,7 +1922,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2605.08635">
+    <a href="https://icml.cc/virtual/2026/poster/63957">
       Kinematics-Driven Gaussian Shape Deformation for Blurry Monocular Dynamic Scenes
     </a>
   </td>
@@ -1489,7 +1945,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tbody>
 <tr>
   <td align="left">
-    <a href="https://openreview.net/pdf?id=WrEQFwWCdT">
+    <a href="https://iclr.cc/virtual/2026/poster/10009018">
       MoE-GS: Mixture of Experts for Dynamic Gaussian Splatting
     </a>
   </td>
