@@ -1,3 +1,7 @@
 # Claude Code documentation
 CLAUDE.md
 .claude/
+
+# Python bytecode
+__pycache__/
+*.pyc

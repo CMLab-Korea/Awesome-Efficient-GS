@@ -1,0 +1,63 @@
+name: Taxonomy diagrams
+
+# The paper list in README.md is the single source of truth. Whenever it changes,
+# rebuild the taxonomy diagrams from it and commit them back, so the images shown
+# in the README never drift from the tables below them.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - tools/build_tree.py
+      - tools/title_aliases.json
+      - .github/workflows/taxonomy.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: taxonomy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Rebuild the mermaid sources from README.md
+        run: python tools/build_tree.py
+
+      - name: Render the SVGs
+        run: |
+          echo '{"args":["--no-sandbox","--disable-setuid-sandbox"]}' > puppeteer.json
+          npx -y @mermaid-js/mermaid-cli@11.17.0 \
+            -i img/static_papers.mermaid -o img/static_papers.svg \
+            -b transparent -p puppeteer.json
+          npx -y @mermaid-js/mermaid-cli@11.17.0 \
+            -i img/dynamic_papers.mermaid -o img/dynamic_papers.svg \
+            -b transparent -p puppeteer.json
+          rm -f puppeteer.json
+
+      - name: Commit the diagrams if they changed
+        run: |
+          if git diff --quiet -- img; then
+            echo "Diagrams are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add img/static_papers.mermaid img/dynamic_papers.mermaid \
+                  img/static_papers.svg img/dynamic_papers.svg
+          git commit -m "Regenerate taxonomy diagrams from README.md"
+          git push

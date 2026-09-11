@@ -96,7 +96,11 @@ Together, we hope to accelerate the development of scalable, compact, and high-p
 You can find the preprint of our survey here: https://arxiv.org/abs/2512.07197
 
 
-Diagram of recent papers, including those covered in the survey (up to April 10, 2026):
+Diagram of recent papers, including those covered in the survey:
+
+<!-- The two diagrams below are generated from the paper list in this file by
+     tools/build_tree.py and rendered by .github/workflows/taxonomy.yml.
+     Do not edit img/*.mermaid or img/*.svg by hand; edit the tables instead. -->
 
 <p align="center">
   <img src="./img/static_papers.svg" alt="Static (3D) Gaussian Splatting Taxonomy" width="100%">
@@ -110,7 +114,7 @@ Diagram of recent papers, including those covered in the survey (up to April 10,
 
 ## 📄 Paper List
 
-We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 2026):  
+We categorize recent Efficient 3D/4DGS papers by methodology:  
 
 
 ## 3.STATIC
@@ -151,7 +155,7 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 <tr>
   <td align="left">
     <a href="https://link.springer.com/chapter/10.1007/978-3-031-73036-8_4">
-      Eagles: Efficient Accelerated 3D Gaussians with Lightweight Encodings
+      EAGLES: Efficient Accelerated 3D Gaussians with Lightweight Encodings
     </a>
   </td>
   <td align="center">ECCV</td>
@@ -1168,8 +1172,8 @@ We categorize recent Efficient 3D/4DGS papers by methodology (up to April 10, 20
 </tr>
 <tr>
   <td align="left">
-    <a href="https://arxiv.org/abs/2603.16103">
-      NanoGS: Training-Free Gaussian Splat Simplification
+    <a href="https://eccv.ecva.net/virtual/2026/poster/3359">
+      NanoGS: Training-Free and Lightweight Gaussian Splat Simplification
     </a>
   </td>
   <td align="center">arXiv</td>

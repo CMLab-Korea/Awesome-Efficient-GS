@@ -1,72 +1,80 @@
 graph TB
-    Dynamic[4. DYNAMIC SCENES]
+    Root["4. DYNAMIC SCENES"]
 
     %% Main Categories
-    Dynamic --> DPC[4.1 Parameter Compression]
-    Dynamic --> DRC[4.2 Restructuring Compression]
+    Root --> C1["4.1 Parameter Compression"]
+    Root --> C2["4.2 Restructuring Compression"]
 
-    %% Dynamic Parameter Compression Subcategories
-    DPC --> DPruning[4.1.1 Gaussian Pruning<br/>7 papers]
-    DPC --> DAttrPruning[4.1.2 Attribute Pruning<br/>1 paper]
-    DPC --> DQuant[4.1.3 Quantization<br/>1 paper]
-    DPC --> DEntropy[4.1.4 Entropy-based<br/>5 papers]
+    %% Parameter Compression subcategories
+    C1 --> S1["4.1.1 Gaussian Pruning<br/>8 papers"]
+    C1 --> S2["4.1.2 Attribute Pruning<br/>1 paper"]
+    C1 --> S3["4.1.3 Quantization<br/>2 papers"]
+    C1 --> S4["4.1.4 Entropy-based<br/>6 papers"]
 
-    %% Dynamic Gaussian Pruning - vertical layout
-    DPruning --- DP1[Temporally Compressed<br/>BMVC 2025]
-    DP1 --- DP2[SpeeDe3DGS<br/>CVPR 2026]
-    DP2 --- DP3[1000+ FPS 4DGS<br/>NeurIPS 2025]
-    DP3 --- DP4[Fully Explicit Dynamic<br/>NeurIPS 2024]
-    DP4 --- DP5[3DGStream<br/>CVPR 2024]
-    DP5 --- DP6[Instant4D<br/>NeurIPS 2025]
-    DP6 --- DP7[S2GS<br/>ICML 2026]
+    %% Restructuring Compression subcategories
+    C2 --> S5["4.2.1 Anchor-based Representation<br/>11 papers"]
+    C2 --> S6["4.2.2 Canonical Deformable Representation<br/>10 papers"]
+    C2 --> S7["4.2.3 LoD Representation<br/>4 papers"]
+    C2 --> S8["4.2.4 Mixture-of-Experts<br/>1 paper"]
 
-    %% Dynamic Attribute Pruning
-    DAttrPruning --- DAP1[Hybrid 3D-4D<br/>arXiv 2025]
+    %% 4.1.1 Gaussian Pruning
+    S1 --- P1["Temporally Compressed<br/>BMVC 2025"]
+    P1 --- P2["SpeeDe3DGS<br/>CVPR 2026"]
+    P2 --- P3["1000+ FPS 4DGS<br/>NeurIPS 2025"]
+    P3 --- P4["Fully Explicit Dynamic<br/>NeurIPS 2024"]
+    P4 --- P5["3DGStream<br/>CVPR 2024"]
+    P5 --- P6["Instant4D<br/>NeurIPS 2025"]
+    P6 --- P7["S2GS<br/>ICML 2026"]
+    P7 --- P8["Multi4D<br/>ECCV 2026"]
 
-    %% Dynamic Quantization
-    DQuant --- DQ1[Temporally Compressed<br/>BMVC 2025]
+    %% 4.1.2 Attribute Pruning
+    S2 --- P9["Hybrid 3D-4D<br/>arXiv 2025"]
 
-    %% Dynamic Entropy-based - vertical layout
-    DEntropy --- DE1[HiFi4G<br/>CVPR 2024]
-    DE1 --- DE2[MEGA<br/>ICCV 2025]
-    DE2 --- DE3[Real-time 4DGS<br/>ICLR 2024]
-    DE3 --- DE4[TED-4DGS<br/>WACV 2026]
-    DE4 --- DE5[Turbo4DGen<br/>ICML 2026]
+    %% 4.1.3 Quantization
+    S3 --- P10["Temporally Compressed<br/>BMVC 2025"]
+    P10 --- P11["Layered 4D-Rotor GS<br/>CVPR 2026"]
 
-    %% Dynamic Restructuring Compression Subcategories
-    DRC --> DAnchor[4.2.1 Anchor-based<br/>7 papers]
-    DRC --> DCanonical[4.2.2 Canonical Deformable<br/>9 papers]
-    DRC --> DLoD[4.2.3 LoD Representation<br/>4 papers]
-    DRC --> DMoE[4.2.4 Mixture-of-Experts<br/>1 paper]
+    %% 4.1.4 Entropy-based
+    S4 --- P12["HiFi4G<br/>CVPR 2024"]
+    P12 --- P13["MEGA<br/>ICCV 2025"]
+    P13 --- P14["Real-time 4DGS<br/>ICLR 2024"]
+    P14 --- P15["TED-4DGS<br/>WACV 2026"]
+    P15 --- P16["Turbo4DGen<br/>ICML 2026"]
+    P16 --- P17["D-FCGS<br/>AAAI 2026"]
 
-    %% Dynamic Anchor-based - vertical layout
-    DAnchor --- DA1[MoSca<br/>CVPR 2025]
-    DA1 --- DA2[Sparse Time-variant<br/>AAAI 2025]
-    DA2 --- DA3[MoDec-GS<br/>CVPR 2025]
-    DA3 --- DA4[HAIF-GS<br/>NeurIPS 2025]
-    DA4 --- DA5[Anchored 4DGS<br/>SIGGRAPH Asia 2025]
-    DA5 --- DA6[Inst4DGS<br/>arXiv 2026]
-    DA6 --- DA7[Adaptive Anchor<br/>arXiv 2026]
+    %% 4.2.1 Anchor-based Representation
+    S5 --- P18["MoSca<br/>CVPR 2025"]
+    P18 --- P19["Sparse Time-variant<br/>AAAI 2025"]
+    P19 --- P20["MoDec-GS<br/>CVPR 2025"]
+    P20 --- P21["HAIF-GS<br/>NeurIPS 2025"]
+    P21 --- P22["Anchored 4DGS<br/>SIGGRAPH Asia 2025"]
+    P22 --- P23["Inst4DGS<br/>arXiv 2026"]
+    P23 --- P24["Adaptive Anchor<br/>arXiv 2026"]
+    P24 --- P25["ClipGStream<br/>CVPR 2026"]
+    P25 --- P26["From Tokens to Nodes<br/>ICLR 2026"]
+    P26 --- P27["HDGS<br/>AAAI 2026"]
+    P27 --- P28["4D Scaffold GS<br/>AAAI 2026"]
 
-    %% Dynamic Canonical Deformable - vertical layout
-    DCanonical --- DC1[Deformable 3DGS<br/>CVPR 2024]
-    DC1 --- DC2[4D Gaussian Splatting<br/>CVPR 2024]
-    DC2 --- DC3[DeformGS<br/>WAFR 2024]
-    DC3 --- DC4[Spacetime Gaussian<br/>CVPR 2024]
-    DC4 --- DC5[Fully Explicit Dynamic<br/>NeurIPS 2024]
-    DC5 --- DC6[HGS<br/>arXiv 2025]
-    DC6 --- DC7[TED-4DGS<br/>WACV 2026]
-    DC7 --- DC8[Learning Explicit CMR<br/>CVPR 2026]
-    DC8 --- DC9[MoRGS<br/>arXiv 2026]
+    %% 4.2.2 Canonical Deformable Representation
+    S6 --- P29["Deformable 3DGS<br/>CVPR 2024"]
+    P29 --- P30["4D Gaussian Splatting<br/>CVPR 2024"]
+    P30 --- P31["DeformGS<br/>WAFR 2024"]
+    P31 --- P32["Spacetime Gaussian<br/>CVPR 2024"]
+    P32 --- P33["Fully Explicit Dynamic<br/>NeurIPS 2024"]
+    P33 --- P34["HGS<br/>arXiv 2025"]
+    P34 --- P35["TED-4DGS<br/>WACV 2026"]
+    P35 --- P36["Learning Explicit CMR<br/>CVPR 2026"]
+    P36 --- P37["MoRGS<br/>arXiv 2026"]
+    P37 --- P38["TRiGS<br/>ECCV 2026"]
 
-    %% Dynamic LoD - vertical layout
-    DLoD --- DL1[Scale-GS<br/>arXiv 2025]
-    DL1 --- DL2[4DGCPro<br/>NeurIPS 2025]
-    DL2 --- DL3[SLARM<br/>arXiv 2026]
-    DL3 --- DL4[Kinematics-Driven<br/>ICML 2026]
+    %% 4.2.3 LoD Representation
+    S7 --- P39["Scale-GS<br/>arXiv 2025"]
+    P39 --- P40["4DGCPro<br/>NeurIPS 2025"]
+    P40 --- P41["SLARM<br/>arXiv 2026"]
+    P41 --- P42["Kinematics-Driven<br/>ICML 2026"]
 
-    %% Dynamic MoE
-    DMoE --- DM1[MoE-GS<br/>ICLR 2026]
+    %% 4.2.4 Mixture-of-Experts
+    S8 --- P43["MoE-GS<br/>ICLR 2026"]
 
     %% Styling
     classDef rootClass fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
@@ -74,14 +82,12 @@ graph TB
     classDef subcategoryClass fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px,color:#000
     classDef paperClass fill:#e8f5e9,stroke:#388e3c,stroke-width:1px,color:#000
 
-    class Dynamic rootClass
-    class DPC,DRC categoryClass
-    class DPruning,DAttrPruning,DQuant,DEntropy,DAnchor,DCanonical,DLoD,DMoE subcategoryClass
-    class DP1,DP2,DP3,DP4,DP5,DP6,DP7,DAP1,DQ1 paperClass
-    class DE1,DE2,DE3,DE4,DE5 paperClass
-    class DA1,DA2,DA3,DA4,DA5,DA6,DA7 paperClass
-    class DC1,DC2,DC3,DC4,DC5,DC6,DC7,DC8,DC9 paperClass
-    class DL1,DL2,DL3,DL4,DM1 paperClass
+    class Root rootClass
+    class C1,C2 categoryClass
+    class S1,S2,S3,S4,S5,S6,S7,S8 subcategoryClass
+    class P1,P2,P3,P4,P5,P6,P7,P8,P9,P10,P11,P12,P13,P14,P15,P16,P17,P18,P19,P20 paperClass
+    class P21,P22,P23,P24,P25,P26,P27,P28,P29,P30,P31,P32,P33,P34,P35,P36,P37,P38,P39,P40 paperClass
+    class P41,P42,P43 paperClass
 
     %% Link styling for dark mode visibility
     linkStyle default stroke:#666,stroke-width:2px
