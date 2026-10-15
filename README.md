@@ -1267,6 +1267,16 @@ We categorize recent Efficient 3D/4DGS papers by methodology:
 <tbody>
 <tr>
   <td align="left">
+    <a href="https://arxiv.org/abs/2606.18588">
+      Splaxel: Efficient Distributed Training of 3D Gaussian Splatting for Large-scale Scene Reconstruction via Pixel-level Communication
+    </a>
+  </td>
+  <td align="center">arXiv</td>
+  <td align="center">2026</td>
+  <td align="center">Distributed training, pixel-level communication</td>
+</tr>
+<tr>
+  <td align="left">
     <a href="https://openaccess.thecvf.com/content/CVPR2026/html/Hahlbohm_Faster-GS_Analyzing_and_Improving_Gaussian_Splatting_Optimization_CVPR_2026_paper.html">
       Faster-GS: Analyzing and Improving Gaussian Splatting Optimization
     </a>
