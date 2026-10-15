@@ -20,7 +20,7 @@ graph TB
     C2 --> S9["3.2.4 LoD Representation<br/>4 papers"]
 
     %% Pipeline Optimization subcategories
-    C3 --> S10["3.3.1 Training Acceleration<br/>7 papers"]
+    C3 --> S10["3.3.1 Training Acceleration<br/>8 papers"]
     C3 --> S11["3.3.2 Rendering Acceleration<br/>6 papers"]
     C3 --> S12["3.3.3 Feed-Forward Prediction<br/>3 papers"]
 
@@ -150,26 +150,27 @@ graph TB
     P106 --- P107["Differentiable Hierarchies<br/>CVPR 2026"]
 
     %% 3.3.1 Training Acceleration
-    S10 --- P108["Faster-GS<br/>CVPR 2026"]
-    P108 --- P109["ShorterSplatting<br/>CVPR 2026"]
-    P109 --- P110["3DGS²-TR<br/>ICML 2026"]
-    P110 --- P111["EDGS<br/>CVPR 2026"]
-    P111 --- P112["Signal Structure-Aware GS<br/>ICLR 2026"]
-    P112 --- P113["Decouple Optimization<br/>ICLR 2026"]
-    P113 --- P114["MuSASplat<br/>AAAI 2026"]
+    S10 --- P108["Splaxel<br/>arXiv 2026"]
+    P108 --- P109["Faster-GS<br/>CVPR 2026"]
+    P109 --- P110["ShorterSplatting<br/>CVPR 2026"]
+    P110 --- P111["3DGS²-TR<br/>ICML 2026"]
+    P111 --- P112["EDGS<br/>CVPR 2026"]
+    P112 --- P113["Signal Structure-Aware GS<br/>ICLR 2026"]
+    P113 --- P114["Decouple Optimization<br/>ICLR 2026"]
+    P114 --- P115["MuSASplat<br/>AAAI 2026"]
 
     %% 3.3.2 Rendering Acceleration
-    S11 --- P115["FlashGS<br/>CVPR 2025"]
-    P115 --- P116["CaT-GS<br/>CVPR 2026"]
-    P116 --- P117["Proxy-GS<br/>CVPR 2026"]
-    P117 --- P118["Seele<br/>CVPR 2026"]
-    P118 --- P119["NVGS<br/>CVPR 2026"]
-    P119 --- P120["Stochastic Ray Tracing<br/>CVPR 2026"]
+    S11 --- P116["FlashGS<br/>CVPR 2025"]
+    P116 --- P117["CaT-GS<br/>CVPR 2026"]
+    P117 --- P118["Proxy-GS<br/>CVPR 2026"]
+    P118 --- P119["Seele<br/>CVPR 2026"]
+    P119 --- P120["NVGS<br/>CVPR 2026"]
+    P120 --- P121["Stochastic Ray Tracing<br/>CVPR 2026"]
 
     %% 3.3.3 Feed-Forward Prediction
-    S12 --- P121["SubSplat<br/>ECCV 2026"]
-    P121 --- P122["GaussianPile<br/>CVPR 2026"]
-    P122 --- P123["Off The Grid<br/>CVPR 2026"]
+    S12 --- P122["SubSplat<br/>ECCV 2026"]
+    P122 --- P123["GaussianPile<br/>CVPR 2026"]
+    P123 --- P124["Off The Grid<br/>CVPR 2026"]
 
     %% Styling
     classDef rootClass fill:#e1f5ff,stroke:#0288d1,stroke-width:3px,color:#000
@@ -186,7 +187,7 @@ graph TB
     class P61,P62,P63,P64,P65,P66,P67,P68,P69,P70,P71,P72,P73,P74,P75,P76,P77,P78,P79,P80 paperClass
     class P81,P82,P83,P84,P85,P86,P87,P88,P89,P90,P91,P92,P93,P94,P95,P96,P97,P98,P99,P100 paperClass
     class P101,P102,P103,P104,P105,P106,P107,P108,P109,P110,P111,P112,P113,P114,P115,P116,P117,P118,P119,P120 paperClass
-    class P121,P122,P123 paperClass
+    class P121,P122,P123,P124 paperClass
 
     %% Link styling for dark mode visibility
     linkStyle default stroke:#666,stroke-width:2px
