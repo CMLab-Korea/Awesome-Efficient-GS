@@ -2006,6 +2006,7 @@ This section summarizes commonly used metrics for evaluating the quality of 3D l
 | [PSNR](https://en.wikipedia.org/wiki/Peak_signal-to-noise_ratio)| - | Full-Reference | - |
 | [SSIM](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1284395)| IEEE TIP | Full-Reference | 2004 |
 | [LPIPS](https://openaccess.thecvf.com/content_cvpr_2018/html/Zhang_The_Unreasonable_Effectiveness_CVPR_2018_paper.html)| CVPR | Full-Reference | 2018 ||
+| [JLD](https://arxiv.org/abs/2610.05967)| arXiv | Full-Reference | 2026 |
 ---
 
 ### 🆚 Full-reference Metric
